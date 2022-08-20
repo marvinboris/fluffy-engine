@@ -124,8 +124,8 @@ class App extends Component {
             <FrontendLayout>
                 <Switch>
                     <Route path="/contact" component={importedRoutes.Frontend.Contact} />
-                    <Route path="/portfolio" component={importedRoutes.Frontend.Portfolio.Index} />
-                    <Route path="/skills" component={importedRoutes.Frontend.Skills.Index} />
+                    <Route path="/portfolio" component={importedRoutes.Frontend.Portfolio} />
+                    <Route path="/skills" component={importedRoutes.Frontend.Skills} />
                     <Route path="/about" component={importedRoutes.Frontend.About} />
                     <Route path="/" component={importedRoutes.Frontend.Home} />
                 </Switch>
