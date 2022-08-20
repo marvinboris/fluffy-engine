@@ -591,6 +591,34 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var _Section__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Section */ "./resources/js/src/containers/Backend/Manager/Cms/Section.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+
+
+
+
+var Frontend = function Frontend() {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_2__.jsx)(_Section__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    className: "Frontend",
+    name: "frontend"
+  });
+};
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Frontend);
+
+/***/ }),
+
+/***/ "./resources/js/src/containers/Backend/Manager/Cms/Section.js":
+/*!********************************************************************!*\
+  !*** ./resources/js/src/containers/Backend/Manager/Cms/Section.js ***!
+  \********************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react_redux__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react-redux */ "./node_modules/react-redux/es/index.js");
 /* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/node_modules/react-router/esm/react-router.js");
 /* harmony import */ var _components_UI_Preloaders_Loading__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/UI/Preloaders/Loading */ "./resources/js/src/components/UI/Preloaders/Loading/index.js");
@@ -655,15 +683,15 @@ function _defineProperty(obj, key, value) { if (key in obj) { Object.definePrope
 
 
 
-var Frontend = /*#__PURE__*/function (_Component) {
-  _inherits(Frontend, _Component);
+var Auth = /*#__PURE__*/function (_Component) {
+  _inherits(Auth, _Component);
 
-  var _super = _createSuper(Frontend);
+  var _super = _createSuper(Auth);
 
-  function Frontend() {
+  function Auth() {
     var _this;
 
-    _classCallCheck(this, Frontend);
+    _classCallCheck(this, Auth);
 
     for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
       args[_key] = arguments[_key];
@@ -684,7 +712,7 @@ var Frontend = /*#__PURE__*/function (_Component) {
               case 0:
                 e.preventDefault();
                 _context.next = 3;
-                return _this.props.patch(e.target);
+                return _this.props.patch(_this.props.name, e.target);
 
               case 3:
               case "end":
@@ -711,15 +739,34 @@ var Frontend = /*#__PURE__*/function (_Component) {
     return _this;
   }
 
-  _createClass(Frontend, [{
+  _createClass(Auth, [{
     key: "componentDidMount",
-    value: function componentDidMount() {
-      this.props.reset();
-      this.props.get();
-      this.setState({
-        isMounted: true
-      });
-    }
+    value: function () {
+      var _componentDidMount = _asyncToGenerator( /*#__PURE__*/_regeneratorRuntime().mark(function _callee2() {
+        return _regeneratorRuntime().wrap(function _callee2$(_context2) {
+          while (1) {
+            switch (_context2.prev = _context2.next) {
+              case 0:
+                this.props.reset();
+                this.props.get();
+                this.setState({
+                  isMounted: true
+                });
+
+              case 3:
+              case "end":
+                return _context2.stop();
+            }
+          }
+        }, _callee2, this);
+      }));
+
+      function componentDidMount() {
+        return _componentDidMount.apply(this, arguments);
+      }
+
+      return componentDidMount;
+    }()
   }, {
     key: "componentWillUnmount",
     value: function componentWillUnmount() {
@@ -729,12 +776,13 @@ var Frontend = /*#__PURE__*/function (_Component) {
     key: "render",
     value: function render() {
       var _this$props = this.props,
+          name = _this$props.name,
           _this$props$content$c = _this$props.content.cms.pages.backend,
           save = _this$props$content$c.components.form.save,
           _this$props$content$c2 = _this$props$content$c.pages.cms,
           icon = _this$props$content$c2.icon,
           title = _this$props$content$c2.title,
-          frontend = _this$props$content$c2.frontend,
+          sectionTitle = _this$props$content$c2[name],
           _this$props$backend$c = _this$props.backend.cms,
           loading = _this$props$backend$c.loading,
           error = _this$props$backend$c.error,
@@ -757,20 +805,22 @@ var Frontend = /*#__PURE__*/function (_Component) {
         }, Math.random() + JSON.stringify(language));
       });
       var mainContent = languages.map(function (language) {
-        var data = cms.pages[language.abbr].frontend;
+        var data = cms.pages[language.abbr][name];
 
-        var cmsValue = _objectSpread({
-          header: data.header,
-          footer: data.footer
-        }, data.pages);
+        var cmsValue = _objectSpread({}, data.pages);
 
+        Object.keys(data).filter(function (key) {
+          return key !== 'pages';
+        }).forEach(function (key) {
+          return cmsValue[key] = data[key];
+        });
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)("div", {
           className: language.abbr === abbr ? "" : "d-none",
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_utility__WEBPACK_IMPORTED_MODULE_9__.LanguageWithPages, {
-            cmsExample: cmsExample.pages["en"].frontend,
+            cmsExample: cmsExample.pages["en"][name],
             cmsValue: cmsValue,
             language: language,
-            part: "frontend"
+            part: name
           })
         }, Math.random());
       });
@@ -811,13 +861,13 @@ var Frontend = /*#__PURE__*/function (_Component) {
       });
 
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsxs)("div", {
-        className: "Cms Frontend",
+        className: "Cms ".concat(this.props.className || ''),
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components_Backend_UI_Title_PageTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {
           title: title,
-          subtitle: frontend,
+          subtitle: sectionTitle,
           icon: icon,
           children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components_Backend_UI_Title_Breadcrumb__WEBPACK_IMPORTED_MODULE_7__["default"], {
-            main: frontend
+            main: sectionTitle
           })
         }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components_UI_Preloaders_Loading__WEBPACK_IMPORTED_MODULE_2__["default"], {
           loading: this.state.isMounted && loading,
@@ -827,7 +877,7 @@ var Frontend = /*#__PURE__*/function (_Component) {
             children: [errors, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_12__.jsx)(_components_Backend_UI_Form__WEBPACK_IMPORTED_MODULE_5__["default"], {
               onSubmit: this.submitHandler,
               icon: icon,
-              title: frontend,
+              title: sectionTitle,
               link: "/".concat(role, "/cms"),
               innerClassName: "row",
               children: content
@@ -840,15 +890,15 @@ var Frontend = /*#__PURE__*/function (_Component) {
     key: "getDerivedStateFromProps",
     value: function getDerivedStateFromProps(nextProps, prevState) {
       if (nextProps.backend.cms.cms && prevState.app_name === '') {
-        var frontend = nextProps.backend.cms.cms.frontend;
-        return (0,_shared_utility__WEBPACK_IMPORTED_MODULE_11__.updateObject)(prevState, _objectSpread({}, frontend));
+        var section = nextProps.backend.cms.cms[nextProps.name];
+        return (0,_shared_utility__WEBPACK_IMPORTED_MODULE_11__.updateObject)(prevState, _objectSpread({}, section));
       }
 
       return prevState;
     }
   }]);
 
-  return Frontend;
+  return Auth;
 }(react__WEBPACK_IMPORTED_MODULE_0__.Component);
 
 var mapStateToProps = function mapStateToProps(state) {
@@ -860,8 +910,8 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
     get: function get() {
       return dispatch((0,_store_actions_backend_cms__WEBPACK_IMPORTED_MODULE_10__.getCms)());
     },
-    patch: function patch(data) {
-      return dispatch((0,_store_actions_backend_cms__WEBPACK_IMPORTED_MODULE_10__.patchCms)('frontend', data));
+    patch: function patch(section, data) {
+      return dispatch((0,_store_actions_backend_cms__WEBPACK_IMPORTED_MODULE_10__.patchCms)(section, data));
     },
     reset: function reset() {
       return dispatch((0,_store_actions_backend_cms__WEBPACK_IMPORTED_MODULE_10__.resetCms)());
@@ -869,7 +919,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
   };
 };
 
-/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router_dom__WEBPACK_IMPORTED_MODULE_13__.withRouter)((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Frontend)));
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,react_router_dom__WEBPACK_IMPORTED_MODULE_13__.withRouter)((0,react_redux__WEBPACK_IMPORTED_MODULE_1__.connect)(mapStateToProps, mapDispatchToProps)(Auth)));
 
 /***/ }),
 
@@ -883,12 +933,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "LanguageWithPages": () => (/* binding */ LanguageWithPages)
 /* harmony export */ });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/FormGroup.js");
-/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
-/* harmony import */ var _components_UI_Input__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../../components/UI/Input */ "./resources/js/src/components/UI/Input/index.js");
-/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
-/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lodash */ "./node_modules/lodash/lodash.js");
+/* harmony import */ var lodash__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lodash__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/FormGroup.js");
+/* harmony import */ var reactstrap__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! reactstrap */ "./node_modules/reactstrap/es/Label.js");
+/* harmony import */ var _components_UI_Input__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../../components/UI/Input */ "./resources/js/src/components/UI/Input/index.js");
+/* harmony import */ var _shared_utility__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../../shared/utility */ "./resources/js/src/shared/utility.js");
+/* harmony import */ var react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
 function _slicedToArray(arr, i) { return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest(); }
 
 function _nonIterableRest() { throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method."); }
@@ -900,6 +952,7 @@ function _arrayLikeToArray(arr, len) { if (len == null || len > arr.length) len 
 function _iterableToArrayLimit(arr, i) { var _i = arr == null ? null : typeof Symbol !== "undefined" && arr[Symbol.iterator] || arr["@@iterator"]; if (_i == null) return; var _arr = []; var _n = true; var _d = false; var _s, _e; try { for (_i = _i.call(arr); !(_n = (_s = _i.next()).done); _n = true) { _arr.push(_s.value); if (i && _arr.length === i) break; } } catch (err) { _d = true; _e = err; } finally { try { if (!_n && _i["return"] != null) _i["return"](); } finally { if (_d) throw _e; } } return _arr; }
 
 function _arrayWithHoles(arr) { if (Array.isArray(arr)) return arr; }
+
 
 
 
@@ -927,17 +980,17 @@ var recursiveDeepness = function recursiveDeepness(paramItem, paramName, paramId
       return new RegExp(el.regex.replace(/\[/g, '\\[').replace(/\]/g, '\\]')).test(mainName);
     });
     append = !findAppend ? null : findAppend.action(mainItem);
-    return typeof mainItem === 'string' ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-      children: [prepend, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    return typeof mainItem === 'string' ? /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+      children: [prepend, /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(reactstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
         className: "col-md-6 col-lg-4",
-        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_5__["default"], {
+        children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(reactstrap__WEBPACK_IMPORTED_MODULE_6__["default"], {
           className: "text-small text-500 text-truncate w-100",
-          children: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_2__.htmlEntities)(mainItem)
-        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_1__["default"], {
+          children: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_3__.htmlEntities)(mainItem)
+        }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
           type: "textarea",
           name: mainName,
           id: mainId,
-          placeholder: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_2__.htmlEntities)(mainItem),
+          placeholder: (0,_shared_utility__WEBPACK_IMPORTED_MODULE_3__.htmlEntities)(mainItem),
           defaultValue: mainValue,
           inputClassName: "scrollbar-".concat(window.APP_PRIMARY_COLOR)
         }, "".concat(Math.random() + mainName, "-input"))]
@@ -952,25 +1005,29 @@ var LanguageWithPages = function LanguageWithPages(_ref) {
       language = _ref.language,
       part = _ref.part;
 
-  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)("".concat(language.abbr, "-").concat(Object.keys(cmsValue).sort()[0])),
+  var _useState = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)("".concat(language.abbr, "-").concat(Object.keys(cmsExample).sort()[0])),
       _useState2 = _slicedToArray(_useState, 2),
       activeSection = _useState2[0],
       setActiveSection = _useState2[1];
 
-  if (part === 'frontend') {
-    console.log({
-      example: cmsExample.components,
-      value: cmsValue.components
-    });
-  }
-
-  var sectionsOptions = Object.keys(cmsValue).sort(function (a, b) {
-    return a.localeCompare(b);
-  }).map(function (key) {
+  var sectionsOptions = Object.keys(cmsValue).map(function (key) {
+    var name = (0,lodash__WEBPACK_IMPORTED_MODULE_0__.capitalize)(key.split('_').join(' '));
+    if (Object.keys(cmsExample.pages).find(function (k) {
+      return k === key;
+    })) name = "Page - ".concat(name);
+    return {
+      key: key,
+      name: name
+    };
+  }).sort(function (a, b) {
+    return a.name.localeCompare(b.name);
+  }).map(function (_ref2) {
+    var key = _ref2.key,
+        name = _ref2.name;
     var id = "".concat(language.abbr, "-").concat(key);
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("option", {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("option", {
       value: id,
-      children: key.split('_').join(' ').toUpperCase()
+      children: name
     }, id);
   });
   var prefix = "".concat(language.abbr, "[").concat(part, "]");
@@ -991,7 +1048,7 @@ var LanguageWithPages = function LanguageWithPages(_ref) {
     return key !== 'pages';
   });
   var nonPagesContent = nonPagesKeys.map(function (item) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       className: "row pt-4".concat("".concat(language.abbr, "-").concat(item) === activeSection ? "" : " d-none"),
       children: resourceDeepness(item)
     }, "".concat(Math.random()).concat(prefix, "[").concat(item, "]"));
@@ -1010,17 +1067,17 @@ var LanguageWithPages = function LanguageWithPages(_ref) {
 
   var pagesKeys = Object.keys(cmsExample.pages);
   var pagesContent = pagesKeys.map(function (item) {
-    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+    return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       className: "row pt-4".concat("".concat(language.abbr, "-").concat(item) === activeSection ? "" : " d-none"),
       children: pagesResourceDeepness(item)
     }, "".concat(Math.random()).concat(prefix, "[pages][").concat(item, "]"));
   });
-  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, {
-    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+  return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)(react__WEBPACK_IMPORTED_MODULE_1__.Fragment, {
+    children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
       className: "row",
-      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("div", {
+      children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
         className: "col-md-4",
-        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_1__["default"], {
+        children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)(_components_UI_Input__WEBPACK_IMPORTED_MODULE_2__["default"], {
           type: "select",
           name: "section",
           label: 'Section',
@@ -1028,10 +1085,11 @@ var LanguageWithPages = function LanguageWithPages(_ref) {
             return setActiveSection(e.target.value);
           },
           value: activeSection,
+          validation: null,
           children: sectionsOptions
         })
       })
-    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_3__.jsxs)("div", {
+    }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("hr", {}), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
       children: [nonPagesContent, pagesContent]
     })]
   }, "Language-".concat(language.abbr));

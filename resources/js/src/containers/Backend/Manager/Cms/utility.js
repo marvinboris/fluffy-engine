@@ -1,3 +1,4 @@
+import { capitalize } from "lodash";
 import React, { Fragment, useState } from "react";
 import { FormGroup, Label } from "reactstrap";
 
@@ -31,12 +32,17 @@ const recursiveDeepness = (paramItem, paramName, paramId, paramValue, paramDeepn
 });
 
 export const LanguageWithPages = ({ cmsExample, cmsValue, language, part }) => {
-    const [activeSection, setActiveSection] = useState(`${language.abbr}-${Object.keys(cmsValue).sort()[0]}`);
+    const [activeSection, setActiveSection] = useState(`${language.abbr}-${Object.keys(cmsExample).sort()[0]}`);
 
-    const sectionsOptions = Object.keys(cmsValue).sort((a, b) => a.localeCompare(b)).map(key => {
+    const sectionsOptions = Object.keys(cmsValue).map(key => {
+        let name = capitalize(key.split('_').join(' '));
+        if (Object.keys(cmsExample.pages).find(k => k === key)) name = `Page - ${name}`;
+
+        return { key, name };
+    }).sort((a, b) => a.name.localeCompare(b.name)).map(({ key, name }) => {
         const id = `${language.abbr}-${key}`;
 
-        return <option key={id} value={id}>{key.split('_').join(' ').toUpperCase()}</option>;
+        return <option key={id} value={id}>{name}</option>;
     });
 
     const prefix = `${language.abbr}[${part}]`;
@@ -73,7 +79,7 @@ export const LanguageWithPages = ({ cmsExample, cmsValue, language, part }) => {
     return <Fragment key={`Language-${language.abbr}`}>
         <div className='row'>
             <div className="col-md-4">
-                <Input type="select" name="section" label={'Section'} onChange={e => setActiveSection(e.target.value)} value={activeSection}>
+                <Input type="select" name="section" label={'Section'} onChange={e => setActiveSection(e.target.value)} value={activeSection} validation={null}>
                     {sectionsOptions}
                 </Input>
             </div>
