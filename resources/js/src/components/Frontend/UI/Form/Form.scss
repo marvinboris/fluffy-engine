@@ -1,0 +1,38 @@
+.UI.Form {
+    width: 100%;
+    position: relative;
+
+    .loading {
+        top: -.3rem;
+        z-index: 10;
+        left: -.3rem;
+        display: flex;
+        font-size: 20px;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: calc(100% + 2*.3rem);
+        height: calc(100% + 2*.3rem);
+        color: var(--app-title-color);
+
+        &::before {
+            top: 0;
+            left: 0;
+            content: "";
+            opacity: .7;
+            width: 100%;
+            z-index: -1;
+            height: 100%;
+            position: absolute;
+            background-color: var(--app-input-bg-color);
+        }
+
+        div::after {
+            content: "_";
+            animation-duration: .5s;
+            animation-name: cmd-like;
+            animation-iteration-count: infinite;
+        }
+    }
+}

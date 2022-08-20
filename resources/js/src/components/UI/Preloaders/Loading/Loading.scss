@@ -1,0 +1,85 @@
+.UI.Loading {
+    left: 0;
+    bottom: 0;
+    width: 100vw;
+    display: flex;
+    z-index: 1030;
+    position: fixed;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--app-bg-color);
+    height: calc(100vh - var(--toolbar-bottom-height));
+
+    .logo img {
+        width: 90px;
+    }
+
+    .marvinboris {
+        margin-bottom: 20px;
+        font-family: var(--super-font-family);
+
+        .marvin {
+            color: var(--blue);
+        }
+
+        .boris {
+            color: var(--yellow);
+        }
+    }
+
+    .loading {
+        width: 250px;
+
+        .bar-wrapper {
+            height: 2px;
+            background-color: var(--app-input-bg-color);
+
+            .bar {
+                width: 0;
+                height: 100%;
+            }
+        }
+    }
+
+    &:not(.waiting) .loading {
+        .bar-wrapper .bar {
+            width: 100%;
+            animation-duration: 1s;
+            animation-name: loading-loading;
+            background-image: linear-gradient(to right, var(--blue), var(--yellow));
+        }
+
+        @keyframes loading-loading {
+            0% {
+                width: 0;
+            }
+
+            100% {
+                width: 100%;
+            }
+        }
+    }
+
+    &.is-auth {
+        left: var(--app-sidebar-width);
+        width: calc(100vw - var(--app-sidebar-width));
+        height: calc(100vh - var(--app-header-height-sm) - var(--app-title-height-sm));
+    }
+}
+
+@media (min-width: 800px) {
+    .UI.Loading {
+        &.is-auth {
+            height: calc(100vh - var(--app-header-height) - var(--app-title-height-md));
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .UI.Loading {
+        &.is-auth {
+            height: calc(100vh - var(--app-header-height) - var(--app-title-height));
+        }
+    }
+}

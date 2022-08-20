@@ -1,0 +1,23 @@
+.Frontend .Contact {
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - var(--toolbar-bottom-height));
+
+        .row {
+            align-items: center;
+
+            iframe {
+                width: 100%;
+                min-height: 500px;
+                background-color: var(--app-input-bg-color);
+                border-radius: var(--border-radius);
+            }
+
+            form .submit {
+                text-align: right;
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+.Frontend .Skills {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - var(--toolbar-bottom-height));
+
+        &.skills {
+            .text {
+                p {
+                    margin-bottom: 20px;
+
+                    a {
+                        text-decoration: none;
+                    }
+                }
+            }
+
+            .row {
+                align-items: center;
+
+                .skill {
+                    margin-bottom: 20px;
+
+                    .title {
+                        margin-bottom: 7px;
+                    }
+
+                    .bar-wrapper {
+                        height: 2px;
+                        background-color: var(--app-input-bg-color);
+
+                        .bar {
+                            height: 100%;
+                            animation-name: bar-wrapper-loading;
+                            animation-duration: calc(.5s * var(--skills-skill-i));
+
+                            @keyframes bar-wrapper-loading {
+                                from {
+                                    max-width: 0;
+                                }
+
+                                to {
+                                    max-width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .experience-list {
+                    margin-top: 50px;
+
+                    .row {
+                        align-items: stretch;
+
+                        .experience {
+                            height: 100%;
+                            padding: 30px;
+                            margin-bottom: 20px;
+                            border-radius: var(--border-radius);
+                            background-color: var(--app-input-bg-color);
+    
+                            .title {
+                                font-size: 26px;
+                                margin-bottom: 20px;
+                            }
+    
+                            .duration {
+                                font-size: 12px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

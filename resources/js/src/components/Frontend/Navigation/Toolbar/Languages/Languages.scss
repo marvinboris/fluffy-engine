@@ -1,0 +1,61 @@
+.Toolbar .Languages {
+    .dropdown-toggle {
+        margin: 0;
+        padding: 0;
+        border: none;
+        display: flex;
+        position: relative;
+        align-items: center;
+        box-shadow: none !important;
+        justify-content: space-around;
+        color: var(--white) !important;
+        background: transparent !important;
+
+        .flag {
+            border-right: .25px solid var(--white-50);
+            margin-right: 8px;
+            padding-right: 8px;
+
+            .language-flag {
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                overflow: hidden;
+                position: relative;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: none;
+                box-shadow: 0 0 0 1px var(--white-50);
+
+                span {
+                    font-size: 20px;
+                    position: absolute;
+                }
+            }
+        }
+
+        .name {
+            font-size: 16px;
+            text-transform: capitalize;
+        }
+    }
+
+    .dropdown-menu {
+        min-width: 5rem;
+        left: unset !important;
+        right: 0;
+
+        .dropdown-item {
+            padding-left: 16px;
+            padding-right: 16px;
+            font-size: 16px;
+            font-weight: 400;
+            text-transform: capitalize;
+
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+}

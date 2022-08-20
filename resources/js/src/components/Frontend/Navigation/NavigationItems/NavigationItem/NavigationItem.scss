@@ -1,0 +1,24 @@
+.NavigationItems .NavigationItem {
+    margin: 0 .5rem;
+
+    .nav-link {
+        position: relative;
+
+        &.active::after {
+            content: "_";
+            position: absolute;
+            animation-duration: .5s;
+            animation-name: cmd-like;
+            animation-iteration-count: infinite;
+        }
+
+        .angle {
+            transform: rotate(0);
+            transition: all 0.25s;
+        }
+
+        .angle.open {
+            transform: rotate(180deg);
+        }
+    }
+}

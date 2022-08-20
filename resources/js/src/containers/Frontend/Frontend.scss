@@ -1,0 +1,126 @@
+.Frontend {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+    .main {
+        flex-grow: 1;
+
+        section {
+            &>.container {
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                img {
+                    border-radius: 0;
+                }
+
+                p {
+                    margin-bottom: 20px;
+                }
+
+                .view-all {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .btn {
+        padding: .4rem 1rem;
+        border-radius: var(--border-radius);
+
+        i {
+            margin-left: 7px;
+        }
+    }
+
+    .super {
+        width: 100%;
+        display: flex;
+        font-size: 18px;
+        overflow: hidden;
+        letter-spacing: 0;
+        align-items: center;
+        margin-bottom: .6em;
+        white-space: nowrap;
+        color: var(--yellow);
+        text-transform: uppercase;
+        justify-content: flex-start;
+        animation: super-type 2s steps(60, end);
+        font-family: var(--super-font-family);
+
+        @keyframes super-type {
+            from {
+                width: 0;
+            }
+        }
+
+        &::after {
+            content: "_";
+            animation-duration: .5s;
+            animation-name: cmd-like;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes cmd-like {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .Frontend {
+        .main {
+            section {
+                &>.container {
+                    padding-top: 60px;
+                    padding-bottom: 60px;
+
+                    p {
+                        margin-bottom: 30px;
+                    }
+
+                    .view-all {
+                        margin-top: 30px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .Frontend {
+        .main {
+            section {
+                &>.container {
+                    padding-top: 80px;
+                    padding-bottom: 80px;
+
+                    p {
+                        margin-bottom: 40px;
+                    }
+
+                    .view-all {
+                        margin-top: 40px;
+                    }
+                }
+            }
+        }
+
+        .btn {
+            // padding: 13px 25px;
+
+            i {
+                margin-left: 10px;
+            }
+        }
+    }
+}

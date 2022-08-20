@@ -1,0 +1,86 @@
+.SectionTitle {
+    margin-bottom: 15px;
+
+    .text {
+        .title {
+            color: var(--blue);
+            letter-spacing: -.03em;
+            font-size: var(--section-font-size-sm);
+
+            span {
+                position: relative;
+                display: inline-block;
+                animation-duration: .5s;
+                transform: translateY(0);
+                transition: var(--transition-fast);
+                animation-name: section-title-title;
+                animation-delay: calc(.1s * var(--section-title-title-letter-i));
+
+                @keyframes section-title-title {
+
+                    0%,
+                    40%,
+                    100% {
+                        transform: translateY(0)
+                    }
+
+                    20% {
+                        transform: translateY(-10px)
+                    }
+                }
+
+                &:hover {
+                    transform: translateY(-10px);
+                }
+            }
+
+            .word {
+                display: inline-block;
+
+                &:not(:last-child) {
+                    margin-right: 10px;
+                }
+            }
+        }
+
+        .subtitle {
+            margin-top: 23.4px;
+            text-align: justify;
+        }
+    }
+
+    &.centered {
+        .text {
+            display: flex;
+            text-align: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    }
+}
+
+@media (min-width: 800px) {
+    .SectionTitle {
+        margin-bottom: 20px;
+
+        .text {
+            .title {
+                margin-bottom: 3px;
+                font-size: var(--section-font-size-md);
+            }
+        }
+    }
+}
+
+@media (min-width: 1280px) {
+    .SectionTitle {
+        margin-bottom: 25px;
+
+        .text {
+            .title {
+                margin-bottom: 7px;
+                font-size: var(--section-font-size);
+            }
+        }
+    }
+}

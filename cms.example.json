@@ -1,0 +1,1236 @@
+{
+    "global": {
+        "app_name": "MB",
+        "company_name": "MB",
+        "company_logo": "\/images\/company-logo.png",
+        "logo": {
+            "big": "\/images\/logo.png",
+            "dark": "\/images\/logo.png",
+            "default": "\/images\/logo.png",
+            "light": "\/images\/logo-light.png",
+            "named": "\/images\/logo-named.png"
+        }
+    },
+    "pages": {
+        "fr": {
+            "general": {
+                "date": "Date",
+                "time": "Heure",
+                "home": "Accueil",
+                "days": [
+                    "Dimanche",
+                    "Lundi",
+                    "Mardi",
+                    "Mercredi",
+                    "Jeudi",
+                    "Vendredi",
+                    "Samedi"
+                ],
+                "months": [
+                    "Jan",
+                    "Fev",
+                    "Mar",
+                    "Avr",
+                    "Mai",
+                    "Jui",
+                    "Jul",
+                    "Aou",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "D\u00e9c"
+                ]
+            },
+            "auth": {
+                "footer": {
+                    "copyrights": "Copyrights",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "messages": {
+                    "admin": {
+                        "not_found": "Informations incorrectes.",
+                        "invalid": "Code de v\u00e9rification invalide.",
+                        "sent": "Code de v\u00e9rification envoy\u00e9 avec succ\u00e8s."
+                    },
+                    "user": {
+                        "inactive": "Votre compte n'est pas actif. Veuillez appeler l'administrateur.",
+                        "unauthorized": "Non autoris\u00e9",
+                        "sent": "Lien de r\u00e9initialisation envoy\u00e9 avec succ\u00e8s.",
+                        "reset": "Mot de passe r\u00e9initialis\u00e9 avec succ\u00e8s.",
+                        "failure": "Echec."
+                    }
+                },
+                "pages": {
+                    "user": {
+                        "login": {
+                            "title": "Bienvenue !",
+                            "sign_in": "Se connecter",
+                            "email_address": "Adresse mail",
+                            "password": "Mot de passe"
+                        }
+                    },
+                    "admin": {
+                        "login": {
+                            "sign_in_to": "Se connecter au",
+                            "sign_in": "Se connecter",
+                            "admin_panel": "Panneau de l'administrateur",
+                            "email_address": "Adresse mail",
+                            "password": "Mot de passe",
+                            "sms": "SMS",
+                            "email": "Adresse mail",
+                            "otp_method": "M\u00e9thode OTP"
+                        },
+                        "verify": {
+                            "enter": "Entrer",
+                            "verification_code": "Code de v\u00e9rification",
+                            "continue": "Continuer",
+                            "didnt_receive_code": "Aucun code re\u00e7u",
+                            "resend": "Renvoyer"
+                        }
+                    }
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Se d\u00e9connecter",
+                    "no_message": "Aucun message",
+                    "no_notification": "Aucune notification",
+                    "logout": "D\u00e9connexion",
+                    "close": "Fermer",
+                    "sure_logout": "\u00cates-vous s\u00fbr de vouloir vous d\u00e9connecter",
+                    "you_have": "Vous avez",
+                    "messages": "messages",
+                    "unread_message": "message non lu",
+                    "unread_notification": "notification non lue",
+                    "unread_messages": "messages non lus",
+                    "unread_notifications": "notifications non lues",
+                    "view_all_messages": "Voir tous les messages",
+                    "view_all_notifications": "Voir toutes les notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                },
+                "sidebar": {
+                    "admin": "Administrateur",
+                    "user": "Utilisateur",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Tableau de bord"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Administrateurs",
+                            "add": "Ajouter un administrateur",
+                            "index": "Liste des administrateurs"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Utilisateurs",
+                            "add": "Ajouter un utilisateur",
+                            "index": "Liste des utilisateurs"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "R\u00f4les",
+                            "add": "Ajouter un r\u00f4le",
+                            "index": "Liste des r\u00f4les"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Fonctionnalit\u00e9s",
+                            "add": "Ajouter une fonctionnalit\u00e9",
+                            "index": "Liste des fonctionnalit\u00e9s"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Langues",
+                            "add": "Ajouter une langue",
+                            "index": "Liste des langues"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "G\u00e9n\u00e9ral",
+                            "auth": "Authentification",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Param\u00e8tres",
+                            "cms": "CMS",
+                            "language": "Param\u00e8tres de langue"
+                        },
+                        "experiences": {
+                            "icon": "flask",
+                            "title": "Exp\u00e9riences",
+                            "add": "Ajouter une exp\u00e9rience",
+                            "index": "Liste des exp\u00e9riences"
+                        },
+                        "skills": {
+                            "icon": "chalkboard-teacher",
+                            "title": "Comp\u00e9tences",
+                            "add": "Ajouter une comp\u00e9tence",
+                            "index": "Liste des comp\u00e9tences"
+                        },
+                        "projects": {
+                            "icon": "project-diagram",
+                            "title": "Projets",
+                            "add": "Ajouter un projet",
+                            "index": "Liste des projets"
+                        },
+                        "technologies": {
+                            "icon": "microchip",
+                            "title": "Technologies",
+                            "add": "Ajouter une technologie",
+                            "index": "Liste des technologies"
+                        }
+                    }
+                },
+                "components": {
+                    "form": {
+                        "save": "Sauvegarder",
+                        "save_add": "Sauvegarder & ajouter",
+                        "selected_file": "Fichier s\u00e9lectionn\u00e9",
+                        "active": "Actif",
+                        "inactive": "Inactif"
+                    },
+                    "list": {
+                        "action": "Action",
+                        "all": "Tous",
+                        "first": "Premi\u00e8re",
+                        "last": "Derni\u00e8re",
+                        "loading": "Chargement en cours",
+                        "print": "Imprimer",
+                        "pdf": "PDF",
+                        "csv": "CSV",
+                        "excel": "Excel",
+                        "search": "Rechercher",
+                        "see": "Voir",
+                        "show": "Afficher",
+                        "sl": "SL",
+                        "showing": "Affichant",
+                        "from": "sur",
+                        "entries": {
+                            "singular": "entr\u00e9e",
+                            "plural": "entr\u00e9es"
+                        }
+                    }
+                },
+                "messages": {
+                    "admins": {
+                        "not_found": "Administrateur introuvable.",
+                        "created": "Administrateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Administrateur modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Administrateur supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "users": {
+                        "not_found": "Utilisateur introuvable.",
+                        "created": "Utilisateur cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Utilisateur modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Utilisateur supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "roles": {
+                        "not_found": "R\u00f4le introuvable.",
+                        "created": "R\u00f4le cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "R\u00f4le modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "R\u00f4le supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "features": {
+                        "not_found": "Fonctionnalit\u00e9 introuvable.",
+                        "created": "Fonctionnalit\u00e9 cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Fonctionnalit\u00e9 modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Fonctionnalit\u00e9 supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "languages": {
+                        "not_found": "Langue introuvable.",
+                        "created": "Langue cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Langue modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Langue supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "notifications": {
+                        "not_found": "Notification introuvable."
+                    },
+                    "cms": {
+                        "not_found": "Contenu introuvable.",
+                        "updated": "Contenu modifi\u00e9 avec succ\u00e8s."
+                    },
+                    "settings": {
+                        "not_found": "Param\u00e8tre introuvable.",
+                        "created": "Param\u00e8tre cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Param\u00e8tre modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Param\u00e8tre supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "experiences": {
+                        "not_found": "Exp\u00e9rience introuvable.",
+                        "created": "Exp\u00e9rience cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Exp\u00e9rience modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Exp\u00e9rience supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "skills": {
+                        "not_found": "Comp\u00e9tence introuvable.",
+                        "created": "Comp\u00e9tence cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Comp\u00e9tence modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Comp\u00e9tence supprim\u00e9e avec succ\u00e8s."
+                    },
+                    "projects": {
+                        "not_found": "Projet introuvable.",
+                        "created": "Projet cr\u00e9\u00e9 avec succ\u00e8s.",
+                        "updated": "Projet modifi\u00e9 avec succ\u00e8s.",
+                        "deleted": "Projet supprim\u00e9 avec succ\u00e8s."
+                    },
+                    "technologies": {
+                        "not_found": "Technologie introuvable.",
+                        "created": "Technologie cr\u00e9\u00e9e avec succ\u00e8s.",
+                        "updated": "Technologie modifi\u00e9e avec succ\u00e8s.",
+                        "deleted": "Technologie supprim\u00e9e avec succ\u00e8s."
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Panneau de l'administrateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "experiences": "Exp\u00e9riences",
+                                "skills": "Comp\u00e9tences",
+                                "projects": "Projets",
+                                "technologies": "Technologies"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "Panneau de l'utilisateur",
+                            "subtitle": "Tableau de bord",
+                            "blocks": {
+                                "experiences": "Exp\u00e9riences",
+                                "skills": "Comp\u00e9tences",
+                                "projects": "Projets",
+                                "technologies": "Technologies"
+                            },
+                            "general_report": {
+                                "title": "General",
+                                "subtitle": "General",
+                                "projects": "Projets",
+                                "total_projects": "Projets au total"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "Nom de l'application",
+                            "company_name": "Nom de l'entreprise",
+                            "company_logo": "Logo de l'entreprise"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrateurs",
+                        "add": "Ajouter un administrateur",
+                        "edit": "Modifier un administrateur",
+                        "index": "Liste des administrateurs",
+                        "form": {
+                            "name": "Nom de l'administrateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "admin_photo": "Photo de l'administrateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Utilisateurs",
+                        "add": "Ajouter un utilisateur",
+                        "edit": "Modifier un utilisateur",
+                        "index": "Liste des utilisateurs",
+                        "form": {
+                            "name": "Nom de l'utilisateur",
+                            "full_name": "Nom complet",
+                            "phone": "Num\u00e9ro de t\u00e9l\u00e9phone",
+                            "password": "Mot de passe",
+                            "password_confirmation": "Confirmation de mot de passe",
+                            "email": "Adresse mail",
+                            "role": "R\u00f4le",
+                            "select_role": "S\u00e9lectionner un r\u00f4le",
+                            "user_photo": "Photo de l'utilisateur",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "R\u00f4les",
+                        "add": "Ajouter un r\u00f4le",
+                        "edit": "Modifier un r\u00f4le",
+                        "index": "Liste des r\u00f4les",
+                        "form": {
+                            "name": "Nom",
+                            "description": "Description",
+                            "features": "Fonctionnalit\u00e9s",
+                            "created_at": "Cr\u00e9\u00e9 le",
+                            "create": "Cr\u00e9er",
+                            "update": "Modifier",
+                            "delete": "Supprimer"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Fonctionnalit\u00e9s",
+                        "add": "Ajouter une fonctionnalit\u00e9",
+                        "edit": "Modifier une fonctionnalit\u00e9",
+                        "index": "Liste des fonctionnalit\u00e9s",
+                        "form": {
+                            "name": "Nom",
+                            "prefix": "Pr\u00e9fixe",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Langues",
+                        "add": "Ajouter une langue",
+                        "edit": "Modifier une langue",
+                        "index": "Liste des langues",
+                        "form": {
+                            "name": "Nom",
+                            "abbr": "Abr\u00e9viation",
+                            "flag": "Drapeau",
+                            "select_flag": "S\u00e9lectionner un drapeau",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "D\u00e9tails des notifications",
+                        "index": "Liste des notifications",
+                        "form": {
+                            "you_have_no_notification": "Vous n'avez pas de notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Param\u00e8tres",
+                        "subtitle": "Param\u00e8tres du compte",
+                        "language": {
+                            "title": "Param\u00e8tres de langue",
+                            "form": {
+                                "select_language": "S\u00e9lectionner une langue"
+                            }
+                        }
+                    },
+                    "experiences": {
+                        "icon": "flask",
+                        "title": "Exp\u00e9riences",
+                        "add": "Ajouter une exp\u00e9rience",
+                        "edit": "Modifier une exp\u00e9rience",
+                        "index": "Liste des exp\u00e9riences",
+                        "form": {
+                            "title": "Titre",
+                            "company": "Entreprise",
+                            "description": "Description",
+                            "start_year": "Ann\u00e9e de d\u00e9but",
+                            "end_year": "Ann\u00e9e de fin",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "skills": {
+                        "icon": "chalkboard-teacher",
+                        "title": "Comp\u00e9tences",
+                        "add": "Ajouter une comp\u00e9tence",
+                        "edit": "Modifier une comp\u00e9tence",
+                        "index": "Liste des comp\u00e9tences",
+                        "form": {
+                            "name": "Nom",
+                            "percentage": "Pourcentage",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    },
+                    "projects": {
+                        "icon": "project-diagram",
+                        "title": "Projets",
+                        "add": "Ajouter un projet",
+                        "edit": "Modifier un projet",
+                        "index": "Liste des projets",
+                        "form": {
+                            "title": "Titre",
+                            "description": "Description",
+                            "date": "Date",
+                            "experience": "Entreprise",
+                            "technology_list": "Liste de technologies",
+                            "technologies": "Technologies",
+                            "links": "Liens",
+                            "select_experience": "S\u00e9lectionner une exp\u00e9rience",
+                            "github": "Lien Github",
+                            "link": "Lien du projet",
+                            "language": "Langue",
+                            "created_at": "Cr\u00e9\u00e9 le"
+                        }
+                    },
+                    "technologies": {
+                        "icon": "microchip",
+                        "title": "Technologies",
+                        "add": "Ajouter une technologie",
+                        "edit": "Modifier une technologie",
+                        "index": "Liste des technologies",
+                        "form": {
+                            "name": "Nom",
+                            "created_at": "Cr\u00e9\u00e9e le"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "menu": {
+                        "about": "A propos",
+                        "skills": "Mes Comp\u00e9tences",
+                        "portfolio": "Mon Portfolio",
+                        "contact": "Contact",
+                        "resume": "CV",
+                        "resume_link": "\/files\/cv.pdf"
+                    },
+                    "contact": {
+                        "social_networks": [
+                            {
+                                "icon": "github",
+                                "link": "https:\/\/github.com\/marvinboris"
+                            },
+                            {
+                                "icon": "instagram",
+                                "link": "https:\/\/www.instagram.com\/borisndouma\/"
+                            },
+                            {
+                                "icon": "twitter",
+                                "link": "https:\/\/twitter.com\/marvinboris1"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https:\/\/www.linkedin.com\/in\/boris-ndouma-852454180\/"
+                            }
+                        ],
+                        "email": "jaris.ultio.21@gmail.com"
+                    }
+                },
+                "footer": {
+                    "bottom": {
+                        "all_rights": "Tous droits r\u00e9serv\u00e9s par"
+                    }
+                },
+                "components": {
+                    "form": {
+                        "loading": "Chargement en cours"
+                    }
+                },
+                "messages": {
+                    "contact": {
+                        "success": "Formulaire soumis."
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "banner": {
+                            "greetings": {
+                                "hi": "Salut",
+                                "im_boris": "Je suis <span class='boris'>B<\/span>oris",
+                                "web_developer": "d\u00e9veloppeur web"
+                            },
+                            "presentation": "Je suis un d\u00e9veloppeur web full-stack depuis 2016, freelance depuis 2021. Je peux cr\u00e9er rapidement pour vous des applications et des plateformes web performantes et attrayantes. Je travaille actuellement sur des solutions num\u00e9riques pour les petites entreprises d'industries diff\u00e9rentes.",
+                            "contact": "Contactez-moi!"
+                        },
+                        "about": {
+                            "head": "Que suis-je?",
+                            "title": "Si vous insistez",
+                            "description": "<p>Bonjour\u00a0! Je m'appelle <span class='boris'>B<\/span>oris et j'adore cr\u00e9er des contenus Internet. Je me suis int\u00e9ress\u00e9 au d\u00e9veloppement web lors d'un stage de vacances durant mes ann\u00e9es universitaires, en commen\u00e7ant par une simple application PHP CRUD puis une moins simple et finalement j'ai d\u00e9cid\u00e9 d'int\u00e9grer le d\u00e9veloppement web dans ma formation universitaire, en construisant mon projet de derni\u00e8re ann\u00e9e avec React & Node.js.<\/p><p>Avance rapide jusqu'\u00e0 aujourd'hui, j'ai travaill\u00e9 sur de nombreux projets tels que <a href='\/\/e-menu.marvinboris.com' target='_blank'>une plate-forme de menus de restaurant<\/a>, <a href='\/\/gitsupport.marvinboris.com' target='_blank'>une plate-forme de gestion de support client<\/a> et la cr\u00e9ation de sites web pour quelques entreprises comme <a href='\/\/domotecs. cm' target='_blank'>une entreprise de domotique<\/a> et <a href='\/\/maholconsulting.com' target='_blank'>une entreprise de consulting<\/a>. Actuellement, je mets \u00e0 jour mon architecture de travail pour am\u00e9liorer ma vitesse de d\u00e9veloppement.<\/p><p>Voici quelques technologies avec lesquelles j'ai travaill\u00e9 r\u00e9cemment\u00a0:<\/p>",
+                            "read_more": "Lire plus"
+                        },
+                        "portfolio": {
+                            "head": "Quelques projets",
+                            "title": "Mon Portfolio",
+                            "view_all": "Voir plus!",
+                            "description": "Une petite galerie de projets int\u00e9ressants choisis par moi. Je les ai tous faits avec des gens formidables de diff\u00e9rentes entreprises. Ce n'est qu'une goutte dans l'oc\u00e9an par rapport \u00e0 toute la liste. Envie d'en voir plus? Visitez ma page portfolio."
+                        },
+                        "contact": {
+                            "head": "Dire Salut",
+                            "title": "Contactez-moi",
+                            "description": "Je suis int\u00e9ress\u00e9 par les opportunit\u00e9s freelance - des petites applications aux grands projets. Cependant, si vous avez d'autres demandes ou questions, n'h\u00e9sitez pas \u00e0 utiliser le formulaire.",
+                            "form": {
+                                "name": "Nom",
+                                "email": "E-mail",
+                                "subject": "Objet",
+                                "message": "Message",
+                                "submit": "Soumettre"
+                            }
+                        }
+                    },
+                    "about": {
+                        "head": "Qui suis-je?",
+                        "title": "Je suis moi",
+                        "description": "<p>Je suis un d\u00e9veloppeur Web Full-Stack vivant au Cameroun. J'ai suis passionn\u00e9 par la construction de sites Web et d'outils utiles pour les petites et moyennes entreprises.<\/p><p>Personne bien organis\u00e9e et vive, r\u00e9solveur de probl\u00e8mes, employ\u00e9 ind\u00e9pendant avec une grande attention aux d\u00e9tails. Je suis chr\u00e9tien, sportif, j'aime regarder les animes et les matchs de la NBA.<\/p><p>Int\u00e9ress\u00e9 par tout le spectre du Web et travaillant sur des projets ambitieux avec des personnes positives.<\/p>",
+                        "read_more": "Lire plus"
+                    },
+                    "contact": {
+                        "head": "Dire Salut",
+                        "title": "Contactez-moi",
+                        "description": "Je suis int\u00e9ress\u00e9 par les opportunit\u00e9s freelance - des petites applications aux grands projets. Cependant, si vous avez d'autres demandes ou questions, n'h\u00e9sitez pas \u00e0 utiliser le formulaire.",
+                        "form": {
+                            "name": "Nom",
+                            "email": "E-mail",
+                            "subject": "Objet",
+                            "message": "Message",
+                            "submit": "Soumettre"
+                        }
+                    },
+                    "skills": {
+                        "head": "Alors, je peux",
+                        "title": "Comp\u00e9tences & Exp\u00e9rience",
+                        "description": "<p>Depuis le d\u00e9but de mon parcours en tant que d\u00e9veloppeur ind\u00e9pendant il y a pr\u00e8s de 2\u00a0ans, j'ai travaill\u00e9 et consult\u00e9 des startups, et collabor\u00e9 avec des personnes talentueuses pour cr\u00e9er des produits Web destin\u00e9s \u00e0 la fois aux entreprises et aux consommateurs.<\/p><p>Je cr\u00e9e des sites Web r\u00e9actifs performants, rapides, faciles \u00e0 utiliser et construits selon les meilleures pratiques. Mon principal domaine d'expertise est le d\u00e9veloppement Full-Stack, l'API REST React et Laravel, la cr\u00e9ation d'applications Web de petite et moyenne taille, les fonctionnalit\u00e9s personnalis\u00e9es, les animations et le codage d'outils interactifs.<\/p><p>Visitez mon <a href='https :\/\/www.linkedin.com\/in\/boris-ndouma-852454180\/' target='_blank'>profil LinkedIn<\/a> pour plus de d\u00e9tails ou simplement <a href='mailto:jaris.ultio.21@gmail. com' target='_blank'>contactez<\/a> moi.<\/p>"
+                    },
+                    "portfolio": {
+                        "head": "Ce que j'ai fait",
+                        "title": "Mon Portfolio",
+                        "table": {
+                            "year": "Ann\u00e9e",
+                            "title": "Titre",
+                            "made_at": "Cr\u00e9\u00e9 \u00e0",
+                            "technologies": "Mont\u00e9 avec",
+                            "links": "Liens"
+                        }
+                    }
+                }
+            }
+        },
+        "en": {
+            "general": {
+                "date": "Date",
+                "time": "Time",
+                "home": "Home",
+                "days": [
+                    "Sunday",
+                    "Monday",
+                    "Tuesday",
+                    "Wednesday",
+                    "Thursday",
+                    "Friday",
+                    "Saturday"
+                ],
+                "months": [
+                    "Jan",
+                    "Feb",
+                    "Mar",
+                    "Apr",
+                    "May",
+                    "Jun",
+                    "Jul",
+                    "Aug",
+                    "Sep",
+                    "Oct",
+                    "Nov",
+                    "Dec"
+                ]
+            },
+            "auth": {
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "messages": {
+                    "admin": {
+                        "not_found": "Invalid credentials.",
+                        "invalid": "Invalid verification code.",
+                        "sent": "Verification code successfully sent."
+                    },
+                    "user": {
+                        "inactive": "Your account is inactive. Please contact admin.",
+                        "unauthorized": "Unauthorized",
+                        "sent": "Reset link successfully sent.",
+                        "reset": "Password successfuly reset.",
+                        "failure": "Failure."
+                    }
+                },
+                "pages": {
+                    "user": {
+                        "login": {
+                            "title": "Welcome User !",
+                            "sign_in": "Sign in",
+                            "email_address": "E-mail address",
+                            "password": "Password"
+                        }
+                    },
+                    "admin": {
+                        "login": {
+                            "sign_in_to": "Sign in to",
+                            "sign_in": "Sign in",
+                            "admin_panel": "Admin panel",
+                            "email_address": "E-mail address",
+                            "password": "Password",
+                            "sms": "SMS",
+                            "email": "E-mail address",
+                            "otp_method": "OTP Method"
+                        },
+                        "verify": {
+                            "enter": "Enter",
+                            "verification_code": "Verification code",
+                            "continue": "Continue",
+                            "didnt_receive_code": "Didn't receive code",
+                            "resend": "Resend"
+                        }
+                    }
+                }
+            },
+            "backend": {
+                "header": {
+                    "id": "ID",
+                    "sign_out": "Sign out",
+                    "no_message": "No message",
+                    "no_notification": "No notification",
+                    "logout": "Logout",
+                    "close": "Close",
+                    "sure_logout": "Are you sure you want to logout",
+                    "you_have": "You have",
+                    "messages": "messages",
+                    "unread_message": "unread message",
+                    "unread_notification": "unread notification",
+                    "unread_messages": "unread messages",
+                    "unread_notifications": "unread notifications",
+                    "view_all_messages": "View all messages",
+                    "view_all_notifications": "View all notifications"
+                },
+                "footer": {
+                    "copyright": "Copyright",
+                    "all_rights": "All rights reserved by"
+                },
+                "sidebar": {
+                    "admin": "Admin",
+                    "user": "User",
+                    "menu": {
+                        "dashboard": {
+                            "icon": "home",
+                            "title": "Dashboard"
+                        },
+                        "admins": {
+                            "icon": "user-cog",
+                            "title": "Admins",
+                            "add": "Add admin",
+                            "index": "Admin list"
+                        },
+                        "users": {
+                            "icon": "user",
+                            "title": "Users",
+                            "add": "Add user",
+                            "index": "User list"
+                        },
+                        "roles": {
+                            "icon": "user-tag",
+                            "title": "Roles",
+                            "add": "Add role",
+                            "index": "Role list"
+                        },
+                        "features": {
+                            "icon": "tools",
+                            "title": "Features",
+                            "add": "Add feature",
+                            "index": "Feature list"
+                        },
+                        "languages": {
+                            "icon": "language",
+                            "title": "Languages",
+                            "add": "Add language",
+                            "index": "Language list"
+                        },
+                        "cms": {
+                            "icon": "wrench",
+                            "title": "CMS",
+                            "global": "Global",
+                            "general": "General",
+                            "auth": "Authentification",
+                            "backend": "Backend",
+                            "frontend": "Frontend"
+                        },
+                        "notifications": {
+                            "icon": "bell",
+                            "title": "Notifications"
+                        },
+                        "settings": {
+                            "icon": "sliders-h",
+                            "title": "Settings",
+                            "cms": "CMS",
+                            "language": "Language settings"
+                        },
+                        "experiences": {
+                            "icon": "flask",
+                            "title": "Experiences",
+                            "add": "Add experience",
+                            "index": "Experience list"
+                        },
+                        "skills": {
+                            "icon": "chalkboard-teacher",
+                            "title": "Skills",
+                            "add": "Add skill",
+                            "index": "Skill list"
+                        },
+                        "projects": {
+                            "icon": "project-diagram",
+                            "title": "Projects",
+                            "add": "Add project",
+                            "index": "Project list"
+                        },
+                        "technologies": {
+                            "icon": "microchip",
+                            "title": "Technologies",
+                            "add": "Add technology",
+                            "index": "Technology list"
+                        }
+                    }
+                },
+                "components": {
+                    "form": {
+                        "save": "Save",
+                        "save_add": "Save & Add",
+                        "selected_file": "File selected",
+                        "active": "Active",
+                        "inactive": "Inactive"
+                    },
+                    "list": {
+                        "action": "Action",
+                        "all": "All",
+                        "first": "First",
+                        "last": "Last",
+                        "loading": "Loading",
+                        "print": "Print",
+                        "pdf": "PDF",
+                        "csv": "CSV",
+                        "excel": "Excel",
+                        "search": "Search",
+                        "see": "See",
+                        "show": "Show",
+                        "sl": "SL",
+                        "showing": "Showing",
+                        "from": "from",
+                        "entries": {
+                            "singular": "entry",
+                            "plural": "entries"
+                        }
+                    }
+                },
+                "messages": {
+                    "admins": {
+                        "not_found": "Admin not found.",
+                        "created": "Admin successfully created.",
+                        "updated": "Admin successfully updated.",
+                        "deleted": "Admin successfully deleted."
+                    },
+                    "users": {
+                        "not_found": "User not found.",
+                        "created": "User successfully created.",
+                        "updated": "User successfully updated.",
+                        "deleted": "User successfully deleted."
+                    },
+                    "roles": {
+                        "not_found": "Role not found.",
+                        "created": "Role successfully created.",
+                        "updated": "Role successfully updated.",
+                        "deleted": "Role successfully deleted."
+                    },
+                    "features": {
+                        "not_found": "Feature not found.",
+                        "created": "Feature successfully created.",
+                        "updated": "Feature successfully updated.",
+                        "deleted": "Feature successfully deleted."
+                    },
+                    "languages": {
+                        "not_found": "Language not found.",
+                        "created": "Language successfully created.",
+                        "updated": "Language successfully updated.",
+                        "deleted": "Language successfully deleted."
+                    },
+                    "notifications": {
+                        "not_found": "Notification not found."
+                    },
+                    "cms": {
+                        "not_found": "Content not found.",
+                        "updated": "Content successfully updated."
+                    },
+                    "settings": {
+                        "not_found": "Setting not found.",
+                        "created": "Setting successfully created.",
+                        "updated": "Setting successfully updated.",
+                        "deleted": "Setting successfully deleted."
+                    },
+                    "experiences": {
+                        "not_found": "Experience not found.",
+                        "created": "Experience successfully created.",
+                        "updated": "Experience successfully updated.",
+                        "deleted": "Experience successfully deleted."
+                    },
+                    "skills": {
+                        "not_found": "Skill not found.",
+                        "created": "Skill successfully created.",
+                        "updated": "Skill successfully updated.",
+                        "deleted": "Skill successfully deleted."
+                    },
+                    "projects": {
+                        "not_found": "Project not found.",
+                        "created": "Project successfully created.",
+                        "updated": "Project successfully updated.",
+                        "deleted": "Project successfully deleted."
+                    },
+                    "technologies": {
+                        "not_found": "Technology not found.",
+                        "created": "Technology successfully created.",
+                        "updated": "Technology successfully updated.",
+                        "deleted": "Technology successfully deleted."
+                    }
+                },
+                "pages": {
+                    "dashboard": {
+                        "admin": {
+                            "icon": "home",
+                            "title": "Admin panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "experiences": "Experiences",
+                                "skills": "Skills",
+                                "projects": "Projects",
+                                "technologies": "Technologies"
+                            }
+                        },
+                        "user": {
+                            "icon": "home",
+                            "title": "User panel",
+                            "subtitle": "Dashboard",
+                            "blocks": {
+                                "experiences": "Experiences",
+                                "skills": "Skills",
+                                "projects": "Projects",
+                                "technologies": "Technologies"
+                            },
+                            "general_report": {
+                                "title": "General",
+                                "subtitle": "General",
+                                "projects": "Projects",
+                                "total_projects": "Total projects"
+                            }
+                        }
+                    },
+                    "cms": {
+                        "icon": "wrench",
+                        "title": "CMS",
+                        "global": "Global",
+                        "general": "General",
+                        "messages": "Messages",
+                        "frontend": "Frontend",
+                        "components": "Components",
+                        "backend": "Backend",
+                        "auth": "Auth",
+                        "form": {
+                            "logo": "Logo",
+                            "app_name": "App name",
+                            "company_name": "Company name",
+                            "company_logo": "Company logo"
+                        }
+                    },
+                    "admins": {
+                        "icon": "user-cog",
+                        "title": "Administrators",
+                        "add": "Add admin",
+                        "edit": "Edit admin",
+                        "index": "Admin list",
+                        "form": {
+                            "name": "Admin name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "admin_photo": "Admin photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "users": {
+                        "icon": "user",
+                        "title": "Users",
+                        "add": "Add user",
+                        "edit": "Edit user",
+                        "index": "User list",
+                        "form": {
+                            "name": "User name",
+                            "full_name": "Full name",
+                            "phone": "Phone number",
+                            "password": "Password",
+                            "password_confirmation": "Confirm password",
+                            "email": "E-mail address",
+                            "role": "Role",
+                            "select_role": "Select role",
+                            "user_photo": "User photo",
+                            "photo": "Photo"
+                        }
+                    },
+                    "roles": {
+                        "icon": "user-tag",
+                        "title": "Roles",
+                        "add": "Add role",
+                        "edit": "Edit role",
+                        "index": "Role list",
+                        "form": {
+                            "name": "Name",
+                            "description": "Description",
+                            "features": "Features",
+                            "created_at": "Created at",
+                            "create": "Create",
+                            "update": "Update",
+                            "delete": "Delete"
+                        }
+                    },
+                    "features": {
+                        "icon": "tools",
+                        "title": "Features",
+                        "add": "Add feature",
+                        "edit": "Edit feature",
+                        "index": "Feature list",
+                        "form": {
+                            "name": "Name",
+                            "prefix": "Prefix",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "languages": {
+                        "icon": "language",
+                        "title": "Languages",
+                        "add": "Add language",
+                        "edit": "Edit language",
+                        "index": "Language list",
+                        "form": {
+                            "name": "Name",
+                            "abbr": "Abbreviation",
+                            "flag": "Flag",
+                            "select_flag": "Select flag",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "notifications": {
+                        "icon": "bell",
+                        "title": "Notifications",
+                        "show": "Notification details",
+                        "index": "Notification list",
+                        "form": {
+                            "you_have_no_notification": "You have no notification."
+                        }
+                    },
+                    "settings": {
+                        "icon": "sliders-h",
+                        "title": "Settings",
+                        "subtitle": "Account settings",
+                        "language": {
+                            "title": "Language settings",
+                            "form": {
+                                "select_language": "Select a language"
+                            }
+                        }
+                    },
+                    "experiences": {
+                        "icon": "flask",
+                        "title": "Experiences",
+                        "add": "Add experience",
+                        "edit": "Edit experience",
+                        "index": "Experience list",
+                        "form": {
+                            "title": "Title",
+                            "company": "Company",
+                            "description": "Description",
+                            "start_year": "Start year",
+                            "end_year": "End year",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "skills": {
+                        "icon": "chalkboard-teacher",
+                        "title": "Skills",
+                        "add": "Add skill",
+                        "edit": "Edit skill",
+                        "index": "Skill list",
+                        "form": {
+                            "name": "Name",
+                            "percentage": "Percentage",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "projects": {
+                        "icon": "project-diagram",
+                        "title": "Projects",
+                        "add": "Add project",
+                        "edit": "Edit project",
+                        "index": "Project list",
+                        "form": {
+                            "title": "Title",
+                            "description": "Description",
+                            "date": "Date",
+                            "experience": "Experience",
+                            "technology_list": "Technology list",
+                            "technologies": "Technologies",
+                            "links": "Links",
+                            "select_experience": "Select experience",
+                            "github": "Github link",
+                            "link": "Project link",
+                            "language": "Language",
+                            "created_at": "Created at"
+                        }
+                    },
+                    "technologies": {
+                        "icon": "microchip",
+                        "title": "Technologies",
+                        "add": "Add technology",
+                        "edit": "Edit technology",
+                        "index": "Technology list",
+                        "form": {
+                            "name": "Name",
+                            "created_at": "Created at"
+                        }
+                    }
+                }
+            },
+            "frontend": {
+                "header": {
+                    "menu": {
+                        "about": "About",
+                        "skills": "My Skills",
+                        "portfolio": "My Portfolio",
+                        "contact": "Contact",
+                        "resume": "Resume",
+                        "resume_link": "\/files\/cv.pdf"
+                    },
+                    "contact": {
+                        "social_networks": [
+                            {
+                                "icon": "github",
+                                "link": "https:\/\/github.com\/marvinboris"
+                            },
+                            {
+                                "icon": "instagram",
+                                "link": "https:\/\/www.instagram.com\/borisndouma\/"
+                            },
+                            {
+                                "icon": "twitter",
+                                "link": "https:\/\/twitter.com\/marvinboris1"
+                            },
+                            {
+                                "icon": "linkedin",
+                                "link": "https:\/\/www.linkedin.com\/in\/boris-ndouma-852454180\/"
+                            }
+                        ],
+                        "email": "jaris.ultio.21@gmail.com"
+                    }
+                },
+                "footer": {
+                    "bottom": {
+                        "all_rights": "All rights reserved by"
+                    }
+                },
+                "components": {
+                    "form": {
+                        "loading": "Loading"
+                    }
+                },
+                "messages": {
+                    "contact": {
+                        "success": "Submitted form."
+                    }
+                },
+                "pages": {
+                    "home": {
+                        "banner": {
+                            "greetings": {
+                                "hi": "Hi",
+                                "im_boris": "I'm <span class='boris'>B<\/span>oris",
+                                "web_developer": "web developer"
+                            },
+                            "presentation": "I'm a freelance full-stack web developer since 2016. I can build fast web apps and platforms for you. Currently working on digital solutions for small companies of several industries.",
+                            "contact": "Contact me!"
+                        },
+                        "about": {
+                            "head": "Who am I?",
+                            "title": "Not this narcissic",
+                            "description": "<p>Hello! My name is <span class='boris'>B<\/span>oris and I love creating internet stuffs. I interested myself into web development during a vacation internship during my university years, starting with a simple PHP CRUD app then a less simple one and finally I decided to integrate web development into my university education, building my last year project with React & Node.js.<\/p><p>Fast-forward to today, and I've been working on many projects such as <a href='\/\/e-menu.marvinboris.com' target='_blank'>a restaurant menu platform<\/a>, <a href='\/\/gitsupport.marvinboris.com' target='_blank'>a customer support management platform<\/a> and building websites for few companies like <a href='\/\/domotecs.cm' target='_blank'>a domotics<\/a> and <a href='\/\/maholconsulting.com' target='_blank'>a consulting one<\/a>. Actually, I'm updating my work architecture to improve my development speed.<\/p><p>Here are a few technologies I\u2019ve been working with recently:<\/p>",
+                            "read_more": "Read more"
+                        },
+                        "portfolio": {
+                            "head": "Noteworthy projects",
+                            "title": "My Portfolio",
+                            "view_all": "See more!",
+                            "description": "A small gallery of recent projects chosen by me. I've done them all together with amazing people from some companies. It's only a drop in the ocean compared to the entire list. Interested to see some more? Visit my portfolio page."
+                        },
+                        "contact": {
+                            "head": "Say Hello",
+                            "title": "Contact me",
+                            "description": "I\u2019m interested in freelance opportunities - from small apps to large projects. However, if you have other request or question, don\u2019t hesitate to use the form.",
+                            "form": {
+                                "name": "Name",
+                                "email": "E-mail",
+                                "subject": "Subject",
+                                "message": "Message",
+                                "submit": "Submit"
+                            }
+                        }
+                    },
+                    "about": {
+                        "head": "Who am I?",
+                        "title": "I'm me",
+                        "description": "<p>I\u2019m a Full-Stack Web Developer located in Cameroon. I have a serious passion for building small companies's web sites and useful tools.<\/p><p>Well-organised and fast person, problem solver, independent employee with high attention to detail. I'm a christian, athletic, like watching animes and NBA games.<\/p><p>Interested in the entire web spectrum and working on ambitious projects with positive people.<\/p>",
+                        "read_more": "Read more"
+                    },
+                    "contact": {
+                        "head": "Say Hello",
+                        "title": "Contact me",
+                        "description": "I\u2019m interested in freelance opportunities - from small apps to large projects. However, if you have other request or question, don\u2019t hesitate to use the form.",
+                        "form": {
+                            "name": "Name",
+                            "email": "E-mail",
+                            "subject": "Subject",
+                            "message": "Message",
+                            "submit": "Submit"
+                        }
+                    },
+                    "skills": {
+                        "head": "So, I can",
+                        "title": "Skills & Experience",
+                        "description": "<p>Since beginning my journey as a freelance developer nearly 2 years ago, I\u2019ve worked and consulted for startups, and collaborated with talented people to create web products for both business and consumer use.<\/p><p>I create successful responsive websites that are fast, easy to use, and built with best practices. The main area of my expertise is Full-Stack development, React and Laravel REST API, building small and medium web apps, custom features, animations, and coding interactive tools.<\/p><p>Visit my <a href='https:\/\/www.linkedin.com\/in\/boris-ndouma-852454180\/' target='_blank'>LinkedIn<\/a> profile for more details or just <a href='mailto:jaris.ultio.21@gmail.com' target='_blank'>contact<\/a> me.<\/p>"
+                    },
+                    "portfolio": {
+                        "head": "What I've done",
+                        "title": "My Portfolio",
+                        "table": {
+                            "year": "Year",
+                            "title": "Title",
+                            "made_at": "Made at",
+                            "technologies": "Build with",
+                            "links": "Links"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

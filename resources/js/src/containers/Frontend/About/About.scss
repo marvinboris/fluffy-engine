@@ -1,0 +1,39 @@
+.Frontend .About {
+    section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        min-height: calc(100vh - var(--toolbar-bottom-height));
+
+        &.about {
+            .row {
+                align-items: center;
+
+                .text {
+                    p {
+                        margin-bottom: 20px;
+
+                        a {
+                            text-decoration: none;
+                        }
+                    }
+
+                    ul {
+                        list-style-type: none;
+
+                        li {
+                            width: 50%;
+                            display: inline-block;
+
+                            &::before {
+                                content: "▹";
+                                margin-right: 5px;
+                                color: var(--app-secondary-color);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
