@@ -85,7 +85,7 @@ class App extends Component {
     }
 
     render() {
-        const { content: { cms, error: content_error, countries }, auth: { error: auth_error, role } } = this.props;
+        const { content: { cms, error: content_error, countries }, auth: { error: auth_error, role }, location: { pathname } } = this.props;
         const isAuthenticated = localStorage.getItem('token') !== null;
         if (
             (content_error && (content_error.message.includes("Server Error" || "[1045] Access denied for user"))) ||
@@ -198,7 +198,7 @@ class App extends Component {
         }
 
         routes = <ErrorBoundary>
-            <Suspense fallback={<Loading waiting isAuthenticated={isAuthenticated} />}>
+            <Suspense fallback={<Loading waiting isAuthenticated={isAuthenticated && (pathname.includes('/user/') || pathname.includes('/admin/'))} />}>
                 {routes}
             </Suspense>
         </ErrorBoundary>;

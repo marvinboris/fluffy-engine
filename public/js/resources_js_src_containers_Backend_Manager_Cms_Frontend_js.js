@@ -842,6 +842,7 @@ var Auth = /*#__PURE__*/function (_Component) {
               label: 'Lang',
               onChange: this.inputChangeHandler,
               value: abbr,
+              validation: null,
               children: languagesOptions
             })
           })
