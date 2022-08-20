@@ -67,6 +67,11 @@ const importedRoutes = {
                 Index: lazy(() => import('./containers/Backend/Manager/Technologies')),
                 Add: lazy(() => import('./containers/Backend/Manager/Technologies/Add')),
                 Edit: lazy(() => import('./containers/Backend/Manager/Technologies/Edit')),
+            },
+            Users: {
+                Index: lazy(() => import('./containers/Backend/Manager/Users')),
+                Add: lazy(() => import('./containers/Backend/Manager/Users/Add')),
+                Edit: lazy(() => import('./containers/Backend/Manager/Users/Edit'))
             }
         },
 
