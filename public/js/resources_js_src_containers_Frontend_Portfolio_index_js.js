@@ -287,6 +287,7 @@ var Portfolio = /*#__PURE__*/function (_Component) {
           projects = _this$props$frontend$2 === void 0 ? [] : _this$props$frontend$2;
       var isMounted = this.state.isMounted;
       var lang = localStorage.getItem('frontend_lang');
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.frontend.header.menu.portfolio, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       var data = projects.map(function (project) {
         return (0,_shared_utility__WEBPACK_IMPORTED_MODULE_6__.updateObject)(project, {
           year: new Date(project.date).getFullYear(),

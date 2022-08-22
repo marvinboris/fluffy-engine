@@ -884,6 +884,7 @@ var General = /*#__PURE__*/function (_Component) {
           languages = _this$props$backend$c2 === void 0 ? [] : _this$props$backend$c2,
           role = _this$props.auth.role;
       var abbr = this.state.abbr;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.backend.sidebar.menu.cms.general, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
 
       var errors = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsx)(_components_Messages_Error__WEBPACK_IMPORTED_MODULE_3__["default"], {
         err: error

@@ -41,6 +41,8 @@ class Portfolio extends Component {
         const { isMounted } = this.state;
         const lang = localStorage.getItem('frontend_lang');
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.frontend.header.menu.portfolio} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         const data = projects.map(project => updateObject(project, {
             year: (new Date(project.date)).getFullYear(),
             title: project.title[lang],

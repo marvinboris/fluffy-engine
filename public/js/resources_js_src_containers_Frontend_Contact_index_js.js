@@ -639,6 +639,7 @@ var Contact = /*#__PURE__*/function (_Component) {
           message = _this$state.message,
           isMounted = _this$state.isMounted,
           componentLoading = _this$state.componentLoading;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.frontend.header.menu.contact, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)(_components_UI_Preloaders_Loading__WEBPACK_IMPORTED_MODULE_2__["default"], {
         loading: isMounted && componentLoading,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_10__.jsx)("div", {

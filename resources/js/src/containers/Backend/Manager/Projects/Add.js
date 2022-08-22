@@ -58,15 +58,15 @@ class Add extends Component {
                 },
                 languages
             },
-            backend: { projects: { experiences = [], technologies = [] } },
+            backend: { projects: { experiences = [], technologies: all_technologies = [] } },
         } = this.props;
-        const { title, description, date, github, link, experience_id, translate } = this.state;
+        const { title, description, date, github, link, experience_id, translate, technologies } = this.state;
         const lang = localStorage.getItem('backend_lang');
 
         const languagesOptions = languages.map(language => <option key={JSON.stringify(language)} value={language.abbr}>{language.name}</option>);
-        const experiencesOptions = experiences.map(experience => updateObject(experience, { title: experience.title[lang] })).sort((a, b) => a.title.localeCompare(b.title)).map(experience => <option key={JSON.stringify(experience)} value={experience.id}>{experience.title}</option>);
-        const technologiesItems = technologies.sort((a, b) => a.name.localeCompare(b.name)).map(technology => {
-            const checked = technologies.find(i => +i === +technology.id) !== undefined;
+        const experiencesOptions = experiences.map(experience => updateObject(experience, { company: experience.company[lang] })).sort((a, b) => a.company.localeCompare(b.company)).map(experience => <option key={JSON.stringify(experience)} value={experience.id}>{experience.company}</option>);
+        const technologiesItems = all_technologies.sort((a, b) => a.name.localeCompare(b.name)).map(technology => {
+            const checked = technologies.find(t => +t === +technology.id) !== undefined;
 
             return <div className='col-6 col-md-4 col-lg-3 col-xl-2' key={JSON.stringify(technology)}>
                 <CustomInput type="switch" id={`technology-${technology.id}`} className="col-md-6" checked={checked} name={`technologies_check[]`} onChange={this.inputChangeHandler} label={<span className="text-400">{technology.name}</span>} />

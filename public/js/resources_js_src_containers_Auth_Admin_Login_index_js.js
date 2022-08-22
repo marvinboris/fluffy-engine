@@ -503,6 +503,11 @@ var Login = /*#__PURE__*/function (_Component) {
   }
 
   _createClass(Login, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      document.title = "".concat(this.props.content.cms.pages.auth.pages.admin.login.sign_in, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
+    }
+  }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate() {
       var _this$props = this.props,

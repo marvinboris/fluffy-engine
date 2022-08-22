@@ -505,6 +505,7 @@ var Verify = /*#__PURE__*/function (_Component) {
           hash = _this$props.auth.hash,
           history = _this$props.history;
       if (!hash) history.push('/auth/admin/login');
+      document.title = "".concat(this.props.content.cms.pages.auth.pages.admin.verify.verification_code, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
     }
   }, {
     key: "componentWillUnmount",

@@ -55,6 +55,8 @@ class Edit extends Component {
         } = this.props;
         const { id, abbr } = this.state;
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.backend.sidebar.menu.settings.language} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         const languagesOptions = languages.sort((a, b) => a.name > b.name).map(item => <option key={item.name} value={item.abbr}>{item.name}</option>);
 
         const content = <div className='col-lg-9'>

@@ -65,6 +65,8 @@ class Contact extends Component {
         } = this.props;
         const { name, email, subject, message, isMounted, componentLoading } = this.state;
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.frontend.header.menu.contact} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         return <Loading loading={isMounted && componentLoading}>
             <div className="Contact">
                 <section className='contact'>

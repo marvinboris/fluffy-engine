@@ -165,6 +165,7 @@ var Skills = /*#__PURE__*/function (_Component) {
           experiences = _this$props$frontend$3 === void 0 ? [] : _this$props$frontend$3;
       var isMounted = this.state.isMounted;
       var lang = localStorage.getItem('frontend_lang');
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.frontend.header.menu.skills, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       var skillsContent = skills.map(function (skill, index) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_6__.jsxs)("div", {
           className: "skill",

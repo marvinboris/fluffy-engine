@@ -19,6 +19,7 @@ export class Verify extends Component {
     componentDidMount() {
         const { auth: { hash }, history } = this.props;
         if (!hash) history.push('/auth/admin/login');
+        document.title = `${this.props.content.cms.pages.auth.pages.admin.verify.verification_code} | ${document.head.querySelector('meta[name="base-title"]').content}`;
     }
 
     componentWillUnmount() {

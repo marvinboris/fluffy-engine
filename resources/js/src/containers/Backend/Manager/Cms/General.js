@@ -119,6 +119,8 @@ class General extends Component {
         } = this.props;
         const { abbr } = this.state;
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.backend.sidebar.menu.cms.general} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         const errors = <Error err={error} />;
 
         const languagesOptions = languages.map(language => <option key={Math.random() + JSON.stringify(language)} value={language.abbr}>{language.name}</option>);

@@ -731,6 +731,7 @@ var Global = /*#__PURE__*/function (_Component) {
           app_name = _this$state.app_name,
           company_name = _this$state.company_name,
           company_logo = _this$state.company_logo;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.backend.sidebar.menu.cms.global, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
 
       var content = !!cms && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_11__.jsxs)("div", {
         className: "row",

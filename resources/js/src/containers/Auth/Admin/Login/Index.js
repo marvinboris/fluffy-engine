@@ -17,6 +17,10 @@ export class Login extends Component {
         otp: 'email'
     }
 
+    componentDidMount() { 
+        document.title = `${this.props.content.cms.pages.auth.pages.admin.login.sign_in} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+     }
+
     componentDidUpdate() {
         const { auth: { hash }, onSetHash, history } = this.props;
         if (hash) {

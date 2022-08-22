@@ -1684,6 +1684,7 @@ var add = {
           error = _props$backend$resour.error,
           message = _props$backend$resour.message,
           role = props.auth.role;
+      if (!state.isMounted) document.title = "".concat(props.content.cms.pages.backend.sidebar.menu[resource].add, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: className,
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Backend_UI_Title_PageTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1742,6 +1743,7 @@ var index = {
           items = _props$backend$resour3 === void 0 ? [] : _props$backend$resour3,
           total = _props$backend$resour2.total,
           role = props.auth.role;
+      if (!state.isMounted) document.title = "".concat(props.content.cms.pages.backend.sidebar.menu[resource].index, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: className,
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Backend_UI_Title_PageTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {

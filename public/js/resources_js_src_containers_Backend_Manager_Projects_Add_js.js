@@ -1424,7 +1424,7 @@ var Add = /*#__PURE__*/function (_Component) {
           _this$props$backend$p2 = _this$props$backend$p.experiences,
           experiences = _this$props$backend$p2 === void 0 ? [] : _this$props$backend$p2,
           _this$props$backend$p3 = _this$props$backend$p.technologies,
-          technologies = _this$props$backend$p3 === void 0 ? [] : _this$props$backend$p3;
+          all_technologies = _this$props$backend$p3 === void 0 ? [] : _this$props$backend$p3;
       var _this$state = this.state,
           title = _this$state.title,
           description = _this$state.description,
@@ -1432,7 +1432,8 @@ var Add = /*#__PURE__*/function (_Component) {
           github = _this$state.github,
           link = _this$state.link,
           experience_id = _this$state.experience_id,
-          translate = _this$state.translate;
+          translate = _this$state.translate,
+          technologies = _this$state.technologies;
       var lang = localStorage.getItem('backend_lang');
       var languagesOptions = languages.map(function (language) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
@@ -1442,21 +1443,21 @@ var Add = /*#__PURE__*/function (_Component) {
       });
       var experiencesOptions = experiences.map(function (experience) {
         return (0,_shared_utility__WEBPACK_IMPORTED_MODULE_4__.updateObject)(experience, {
-          title: experience.title[lang]
+          company: experience.company[lang]
         });
       }).sort(function (a, b) {
-        return a.title.localeCompare(b.title);
+        return a.company.localeCompare(b.company);
       }).map(function (experience) {
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("option", {
           value: experience.id,
-          children: experience.title
+          children: experience.company
         }, JSON.stringify(experience));
       });
-      var technologiesItems = technologies.sort(function (a, b) {
+      var technologiesItems = all_technologies.sort(function (a, b) {
         return a.name.localeCompare(b.name);
       }).map(function (technology) {
-        var checked = technologies.find(function (i) {
-          return +i === +technology.id;
+        var checked = technologies.find(function (t) {
+          return +t === +technology.id;
         }) !== undefined;
         return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsxs)("div", {
           className: "col-6 col-md-4 col-lg-3 col-xl-2",
@@ -1776,6 +1777,7 @@ var add = {
           error = _props$backend$resour.error,
           message = _props$backend$resour.message,
           role = props.auth.role;
+      if (!state.isMounted) document.title = "".concat(props.content.cms.pages.backend.sidebar.menu[resource].add, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: className,
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Backend_UI_Title_PageTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {
@@ -1834,6 +1836,7 @@ var index = {
           items = _props$backend$resour3 === void 0 ? [] : _props$backend$resour3,
           total = _props$backend$resour2.total,
           role = props.auth.role;
+      if (!state.isMounted) document.title = "".concat(props.content.cms.pages.backend.sidebar.menu[resource].index, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsxs)("div", {
         className: className,
         children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_8__.jsx)(_components_Backend_UI_Title_PageTitle__WEBPACK_IMPORTED_MODULE_6__["default"], {

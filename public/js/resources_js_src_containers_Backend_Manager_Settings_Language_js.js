@@ -828,6 +828,7 @@ var Edit = /*#__PURE__*/function (_Component) {
       var _this$state = this.state,
           id = _this$state.id,
           abbr = _this$state.abbr;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.backend.sidebar.menu.settings.language, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       var languagesOptions = languages.sort(function (a, b) {
         return a.name > b.name;
       }).map(function (item) {

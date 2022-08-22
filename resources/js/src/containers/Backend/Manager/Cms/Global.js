@@ -69,6 +69,8 @@ class Global extends Component {
         } = this.props;
         const { logo, app_name, company_name, company_logo } = this.state;
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.backend.sidebar.menu.cms.global} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         const content = !!cms && <div className='row'>
             <div className='col-lg-9'>
                 <div className='row'>

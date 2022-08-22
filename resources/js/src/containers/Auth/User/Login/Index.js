@@ -42,6 +42,10 @@ class Login extends Component {
 
 
     // Lifecycle methods
+    componentDidMount() {
+        document.title = `${this.props.content.cms.pages.auth.pages.user.login.sign_in} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+    }
+
     componentDidUpdate() {
         const { auth: { hash }, onSetHash, history } = this.props;
         if (hash) {

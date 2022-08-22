@@ -48,6 +48,8 @@ class Dashboard extends Component {
             backend: { dashboard: { loading, error, message, blocksData = {}, generalReport = {}, generalReportTrackerData = [] } },
         } = this.props;
 
+        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.backend.sidebar.menu.dashboard.title} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
         let content = null;
         const errors = <Error err={error} />;
         const flash = this.props.location.state ? <Feedback time={5000} message={this.props.location.state.message} /> : null;

@@ -1868,6 +1868,7 @@ var About = /*#__PURE__*/function (_Component) {
           all_technologies = _this$props$content.all_technologies,
           loading = _this$props.frontend.about.loading;
       var isMounted = this.state.isMounted;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.frontend.header.menu.about, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       return /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)(_components_UI_Preloaders_Loading__WEBPACK_IMPORTED_MODULE_2__["default"], {
         loading: isMounted && loading,
         children: /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_7__.jsx)("div", {

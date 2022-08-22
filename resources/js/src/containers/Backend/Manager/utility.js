@@ -96,6 +96,8 @@ export const add = {
                 auth: { role }
             } = props;
 
+            if (!state.isMounted) document.title = `${props.content.cms.pages.backend.sidebar.menu[resource].add} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
             return <div className={className}>
                 <PageTitle title={cms.title} subtitle={props.edit ? cms.edit : cms.add} icon={cms.icon}>
                     <Breadcrumb items={props.edit && [{ to: `/${role}/${resource.split('_').join('-')}`, content: cms.index }]} main={props.edit ? cms.edit : cms.add} />
@@ -128,6 +130,9 @@ export const index = {
                 backend: { [resource]: { loading, error, message, [resource]: items = [], total } },
                 auth: { role }
             } = props;
+
+            if (!state.isMounted) document.title = `${props.content.cms.pages.backend.sidebar.menu[resource].index} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+
             return <div className={className}>
                 <PageTitle title={cms.title} subtitle={cms.index} icon={cms.icon}>
                     <Breadcrumb main={cms.index} />

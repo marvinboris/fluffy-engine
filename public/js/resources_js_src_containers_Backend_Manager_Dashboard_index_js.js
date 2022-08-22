@@ -628,6 +628,7 @@ var Dashboard = /*#__PURE__*/function (_Component) {
           generalReport = _this$props$backend$d3 === void 0 ? {} : _this$props$backend$d3,
           _this$props$backend$d4 = _this$props$backend$d.generalReportTrackerData,
           generalReportTrackerData = _this$props$backend$d4 === void 0 ? [] : _this$props$backend$d4;
+      if (!this.state.isMounted) document.title = "".concat(this.props.content.cms.pages.backend.sidebar.menu.dashboard.title, " | ").concat(document.head.querySelector('meta[name="base-title"]').content);
       var content = null;
 
       var errors = /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_13__.jsx)(_components_Messages_Error__WEBPACK_IMPORTED_MODULE_3__["default"], {
