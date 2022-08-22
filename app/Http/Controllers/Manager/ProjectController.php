@@ -17,7 +17,6 @@ class ProjectController extends Controller
         'date' => 'date|required',
         'github' => 'nullable|string',
         'link' => 'nullable|string',
-        'experience_id' => 'nullable|exists:experiences,id',
         'technologies' => 'array|required|exists:technologies,id',
     ];
 
@@ -133,6 +132,13 @@ class ProjectController extends Controller
 
         $input = $request->except(['title', 'description']);
 
+        if ($request->experience_id) {
+            $experience = Experience::find($request->experience_id);
+            if (!$experience) return response()->json([
+                'message' => UtilController::message($cms['pages'][$manager->language->abbr]['backend']['messages']['experiences']['not_found'], 'danger'),
+            ]);
+        }
+
         $project = Project::create($input + [
             'title' => json_encode($request->title),
             'description' => json_encode($request->description),
@@ -159,6 +165,13 @@ class ProjectController extends Controller
         $request->validate($rules);
 
         $input = $request->except(['title', 'description']);
+        
+        if ($request->experience_id) {
+            $experience = Experience::find($request->experience_id);
+            if (!$experience) return response()->json([
+                'message' => UtilController::message($cms['pages'][$manager->language->abbr]['backend']['messages']['experiences']['not_found'], 'danger'),
+            ]);
+        }
 
         $project->update($input + [
             'title' => json_encode($request->title),
