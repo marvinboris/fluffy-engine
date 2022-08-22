@@ -110,9 +110,10 @@ class ProjectController extends Controller
             'message' => UtilController::message($cms['pages'][$manager->language->abbr]['backend']['messages']['projects']['not_found'], 'danger'),
         ]);
 
-        $technologies = array_map(function ($technology) {
-            return $technology['id'];
-        }, $project->technologies()->toArray());
+        $technologies = [];
+        foreach ($project->technologies as $technology) {
+            $technologies[] = $technology->id;
+        }
 
         $information = $this->information();
 
