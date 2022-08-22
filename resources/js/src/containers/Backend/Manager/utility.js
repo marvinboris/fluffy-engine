@@ -96,7 +96,7 @@ export const add = {
                 auth: { role }
             } = props;
 
-            if (!state.isMounted) document.title = `${props.content.cms.pages.backend.sidebar.menu[resource].add} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+            if (!state.isMounted) document.title = `${props.edit ? cms.edit : cms.add} | ${document.head.querySelector('meta[name="base-title"]').content}`;
 
             return <div className={className}>
                 <PageTitle title={cms.title} subtitle={props.edit ? cms.edit : cms.add} icon={cms.icon}>
@@ -131,7 +131,7 @@ export const index = {
                 auth: { role }
             } = props;
 
-            if (!state.isMounted) document.title = `${props.content.cms.pages.backend.sidebar.menu[resource].index} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+            if (!state.isMounted) document.title = `${cms.index} | ${document.head.querySelector('meta[name="base-title"]').content}`;
 
             return <div className={className}>
                 <PageTitle title={cms.title} subtitle={cms.index} icon={cms.icon}>

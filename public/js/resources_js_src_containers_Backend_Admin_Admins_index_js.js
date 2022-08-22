@@ -7660,11 +7660,6 @@ var List = /*#__PURE__*/function (_Component) {
           pageSecond = _this$state5.pageSecond,
           pageLast = _this$state5.pageLast,
           pageNumber = _this$state5.pageNumber;
-      console.log({
-        show: show,
-        page: page,
-        pageNumber: pageNumber
-      });
       var titles = fields.map(function (_ref2) {
         var name = _ref2.name,
             fixed = _ref2.fixed;
