@@ -134,9 +134,7 @@ class ProjectController extends Controller
 
         if ($request->experience_id) {
             $experience = Experience::find($request->experience_id);
-            if (!$experience) return response()->json([
-                'message' => UtilController::message($cms['pages'][$manager->language->abbr]['backend']['messages']['experiences']['not_found'], 'danger'),
-            ]);
+            if (!$experience) $input['experience_id'] = null;
         }
 
         $project = Project::create($input + [
@@ -168,9 +166,7 @@ class ProjectController extends Controller
         
         if ($request->experience_id) {
             $experience = Experience::find($request->experience_id);
-            if (!$experience) return response()->json([
-                'message' => UtilController::message($cms['pages'][$manager->language->abbr]['backend']['messages']['experiences']['not_found'], 'danger'),
-            ]);
+            if (!$experience) $input['experience_id'] = null;
         }
 
         $project->update($input + [
