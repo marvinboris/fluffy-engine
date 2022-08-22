@@ -20,6 +20,12 @@ class List extends Component {
         pageLast: 3,
     }
 
+    componentDidMount() {
+        const { total } = this.props;
+        const { show } = this.state;
+        this.setState({ pageNumber: Math.ceil(total / show) });
+    }
+
     componentDidUpdate(prevProps, prevState) {
         const { total } = this.props;
         const { show } = this.state;
@@ -224,7 +230,7 @@ class List extends Component {
                     </div>
 
                     <div>
-                        <div>{cms.showing} {((+page !== pageNumber) && (+page > 1)) ? show : entries} {cms.from} {total} {total > 1 ? cms.entries.plural : cms.entries.singular}.</div>
+                        <div>{cms.showing} {(+page < pageNumber) ? show : entries} {cms.from} {total} {total > 1 ? cms.entries.plural : cms.entries.singular}.</div>
 
                         <div className="pt-2 d-flex justify-content-end">
                             {show !== "All" && <ul className="pagination btn-group">

@@ -7608,6 +7608,15 @@ var List = /*#__PURE__*/function (_Component) {
   }
 
   _createClass(List, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var total = this.props.total;
+      var show = this.state.show;
+      this.setState({
+        pageNumber: Math.ceil(total / show)
+      });
+    }
+  }, {
     key: "componentDidUpdate",
     value: function componentDidUpdate(prevProps, prevState) {
       var total = this.props.total;
@@ -7651,6 +7660,11 @@ var List = /*#__PURE__*/function (_Component) {
           pageSecond = _this$state5.pageSecond,
           pageLast = _this$state5.pageLast,
           pageNumber = _this$state5.pageNumber;
+      console.log({
+        show: show,
+        page: page,
+        pageNumber: pageNumber
+      });
       var titles = fields.map(function (_ref2) {
         var name = _ref2.name,
             fixed = _ref2.fixed;
@@ -7853,7 +7867,7 @@ var List = /*#__PURE__*/function (_Component) {
             children: children
           }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
             children: [/*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("div", {
-              children: [cms.showing, " ", +page !== pageNumber && +page > 1 ? show : entries, " ", cms.from, " ", total, " ", total > 1 ? cms.entries.plural : cms.entries.singular, "."]
+              children: [cms.showing, " ", +page < pageNumber ? show : entries, " ", cms.from, " ", total, " ", total > 1 ? cms.entries.plural : cms.entries.singular, "."]
             }), /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsx)("div", {
               className: "pt-2 d-flex justify-content-end",
               children: show !== "All" && /*#__PURE__*/(0,react_jsx_runtime__WEBPACK_IMPORTED_MODULE_4__.jsxs)("ul", {
