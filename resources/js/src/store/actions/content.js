@@ -9,7 +9,12 @@ export const frontendLanguage = lang => async dispatch => {
     dispatch(contentStart());
 
     try {
-        const res = await fetch(`${prefix}content/${lang}`);
+        let res;
+        const backend_lang = localStorage.getItem('backend_lang');
+        
+        if (backend_lang) res = await fetch(`${prefix}content/${backend_lang}?frontend_lang=${lang}`);
+        else res = await fetch(`${prefix}content/${lang}`);
+        
         const resData = await res.json();
         localStorage.setItem('frontend_lang', lang);
         dispatch(contentSuccess(resData));
