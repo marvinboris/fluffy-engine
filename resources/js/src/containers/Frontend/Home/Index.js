@@ -74,7 +74,10 @@ class Home extends Component {
         } = this.props;
         const { name, email, subject, message, isMounted } = this.state;
 
-        if (!this.state.isMounted) document.title = `${document.head.querySelector('meta[name="base-title"]').content}`;
+        if (!this.state.isMounted) {
+            document.title = `${document.head.querySelector('meta[name="base-title"]').content}`;
+            document.querySelector('meta[name=description]').content = cms.banner.presentation
+        }
 
         const projectsContent = projects.map(project => <div key={`ProjectBlock-${JSON.stringify(project)}`} className='col-lg-6 col-xl-4 pb-3'><ProjectBlock {...project} /></div>);
         const technologiesContent = technologies.map(technology => <li key={JSON.stringify(technology)}>{technology.name}</li>);

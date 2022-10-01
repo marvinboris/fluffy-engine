@@ -39,7 +39,10 @@ class Skills extends Component {
         const { isMounted } = this.state;
         const lang = localStorage.getItem('frontend_lang');
 
-        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.frontend.header.menu.skills} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+        if (!this.state.isMounted) {
+            document.title = `${this.props.content.cms.pages.frontend.header.menu.skills} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+            document.querySelector('meta[name=description]').content = cms.description
+        }
 
         const skillsContent = skills.map((skill, index) => {
             return <div key={JSON.stringify(skill)} className="skill" style={{ "--skills-skill-i": index + 1 }}>

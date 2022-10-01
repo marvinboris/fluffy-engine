@@ -39,7 +39,10 @@ class About extends Component {
         } = this.props;
         const { isMounted } = this.state;
 
-        if (!this.state.isMounted) document.title = `${this.props.content.cms.pages.frontend.header.menu.about} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+        if (!this.state.isMounted) {
+            document.title = `${this.props.content.cms.pages.frontend.header.menu.about} | ${document.head.querySelector('meta[name="base-title"]').content}`;
+            document.querySelector('meta[name=description]').content = cms.description
+        }
 
         return <Loading loading={isMounted && loading}>
             <div className="About">
