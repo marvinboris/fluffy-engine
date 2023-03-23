@@ -5,10 +5,10 @@
 @import "variables";
 
 // Bootstrap
-@import "~bootstrap/scss/bootstrap";
+@import "node_modules/bootstrap/scss/bootstrap";
 
 // Flag icon
-@import "~flag-icon-css/sass/flag-icon";
+@import "node_modules/flag-icon-css/sass/flag-icon";
 
 @import "colors";
 @import "fonts";
