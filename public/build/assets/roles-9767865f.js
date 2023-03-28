@@ -1,0 +1,2 @@
+import{J as a,y as p,K as c,M as r,N as S}from"./app-297e02ac.js";const s=(e,...t)=>p("roles",{start:()=>({type:c}),success:o=>({type:r,...o}),fail:o=>({type:S,error:o})},e,...t),E={reset:()=>({type:a}),get:(e,t,o)=>s("index",e,t,o),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{E as a};
+//# sourceMappingURL=roles-9767865f.js.map

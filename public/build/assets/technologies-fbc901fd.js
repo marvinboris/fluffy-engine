@@ -1,2 +1,0 @@
-import{$ as o,y as E,a0 as c,a1 as p,a2 as S}from"./app-cf996866.js";const s=(e,...t)=>E("technologies",{start:()=>({type:c}),success:a=>({type:p,...a}),fail:a=>({type:S,error:a})},e,...t),r={reset:()=>({type:o}),get:(e,t,a)=>s("index",e,t,a),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{r as a};
-//# sourceMappingURL=technologies-fbc901fd.js.map

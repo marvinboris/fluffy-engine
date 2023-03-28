@@ -1,2 +1,0 @@
-import{a3 as o,y as S,a4 as p,a5 as c,a6 as r}from"./app-cf996866.js";const s=(e,...t)=>S("users",{start:()=>({type:p}),success:a=>({type:c,...a}),fail:a=>({type:r,error:a})},e,...t),E={reset:()=>({type:o}),get:(e,t,a)=>s("index",e,t,a),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{E as a};
-//# sourceMappingURL=users-d4ef69c2.js.map
