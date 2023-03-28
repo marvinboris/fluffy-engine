@@ -1,0 +1,2 @@
+import{j as t}from"./app-cf996866.js";import o from"./Add-7ee5c634.js";import"./index-a20b3faa.js";import"./index-07c89901.js";import"./Form-b0ca9918.js";import"./index-d59ed208.js";import"./index-42563506.js";import"./index-f172e479.js";import"./Input-20427423.js";import"./index-8cff9c86.js";/* empty css                  */import"./admins-05196680.js";const c=()=>t(o,{edit:!0});export{c as default};
+//# sourceMappingURL=Edit-97dfd11e.js.map

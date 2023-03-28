@@ -1,0 +1,2 @@
+import{x as o,y as E,z as p,A as c,B as r}from"./app-cf996866.js";const s=(e,...t)=>E("features",{start:()=>({type:p}),success:a=>({type:c,...a}),fail:a=>({type:r,error:a})},e,...t),n={reset:()=>({type:o}),get:(e,t,a)=>s("index",e,t,a),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{n as a};
+//# sourceMappingURL=features-0b4eea1d.js.map
