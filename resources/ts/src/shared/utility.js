@@ -87,62 +87,62 @@ export const manageResource =
 
         try {
             const token = localStorage.getItem("token");
-            let url;
+            let url, page, show, search, res, resData;
 
             if (type === "index") {
-                let page = params[0] || 1;
-                let show = params[1] || 10;
-                let search = params[2] || "";
+                page = params[0] || 1;
+                show = params[1] || 10;
+                search = params[2] || "";
                 url = `${
                     PREFIX + role
                 }/${root}?page=${page}&show=${show}&search=${search}`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 return dispatch(actions.success(resData));
             } else if (type === "info") {
                 url = `${PREFIX + role}/${root}/info`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 return dispatch(actions.success(resData));
             } else if (type === "show") {
                 const id = params[0];
                 const url = `${PREFIX + role}/${root}/${id}`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 return dispatch(actions.success(resData));
             } else if (type === "post") {
-                let pageElt = document.getElementById("table-page");
-                let showElt = document.getElementById("table-show");
-                let searchElt = document.getElementById("table-search");
+                const pageElt = document.getElementById("table-page");
+                const showElt = document.getElementById("table-show");
+                const searchElt = document.getElementById("table-search");
                 if (pageElt) page = pageElt.value;
                 if (showElt) show = showElt.value;
                 if (searchElt) search = searchElt.value;
 
-                let data = params[0];
-                let form = new FormData(data);
+                const data = params[0];
+                const form = new FormData(data);
                 url = `${
                     PREFIX + role
                 }/${root}?page=${page}&show=${show}&search=${search}`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     method: "POST",
                     body: form,
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 if (res.status === 422)
                     throw new Error(Object.values(resData.errors).join("\n"));
                 else if (res.status !== 200 && res.status !== 201)
@@ -162,14 +162,14 @@ export const manageResource =
                 url = `${
                     PREFIX + role
                 }/${root}/${id}?page=${page}&show=${show}&search=${search}`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     method: "POST",
                     body: form,
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 if (res.status === 422)
                     throw new Error(Object.values(resData.errors).join("\n"));
                 return dispatch(actions.success(resData));
@@ -185,13 +185,13 @@ export const manageResource =
                 url = `${
                     PREFIX + role
                 }/${root}/${id}?page=${page}&show=${show}&search=${search}`;
-                const res = await fetch(url, {
+                res = await fetch(url, {
                     method: "DELETE",
                     headers: {
                         Authorization: token,
                     },
                 });
-                const resData = await res.json();
+                resData = await res.json();
                 if (res.status === 422)
                     throw new Error(Object.values(resData.errors).join("\n"));
                 return dispatch(actions.success(resData));
