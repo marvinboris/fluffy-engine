@@ -3,213 +3,213 @@
     "file": "assets/Preloader-addb590e.css",
     "src": "Preloader.css"
   },
-  "_Form-58a21dac.js": {
-    "file": "assets/Form-58a21dac.js",
+  "_Form-713bcef4.js": {
+    "file": "assets/Form-713bcef4.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_Input-31415e5f.js": {
-    "file": "assets/Input-31415e5f.js",
+  "_Input-d3b83963.js": {
+    "file": "assets/Input-d3b83963.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_Label-a99056e9.js": {
-    "file": "assets/Label-a99056e9.js",
+  "_Label-425fd04f.js": {
+    "file": "assets/Label-425fd04f.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_Section-387aa150.js": {
-    "file": "assets/Section-387aa150.js",
+  "_Section-b525bf0c.js": {
+    "file": "assets/Section-b525bf0c.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Label-a99056e9.js",
-      "_cms-812b4247.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Label-425fd04f.js",
+      "_cms-9ac6a56b.js"
     ]
   },
-  "_Table-ae2884d3.js": {
-    "file": "assets/Table-ae2884d3.js",
+  "_Table-c89ba9fc.js": {
+    "file": "assets/Table-c89ba9fc.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_admins-22ce7b88.js": {
-    "file": "assets/admins-22ce7b88.js",
+  "_admins-29b24db0.js": {
+    "file": "assets/admins-29b24db0.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_cms-812b4247.js": {
-    "file": "assets/cms-812b4247.js",
+  "_cms-9ac6a56b.js": {
+    "file": "assets/cms-9ac6a56b.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_contact-f4366f14.js": {
+  "_contact-47d30a48.js": {
     "css": [
       "assets/contact-a9f7ff45.css"
     ],
-    "file": "assets/contact-f4366f14.js",
+    "file": "assets/contact-47d30a48.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_experiences-d67dd9de.js": {
-    "file": "assets/experiences-d67dd9de.js",
+  "_experiences-b81fc267.js": {
+    "file": "assets/experiences-b81fc267.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_features-f991db74.js": {
-    "file": "assets/features-f991db74.js",
+  "_features-ed54e09f.js": {
+    "file": "assets/features-ed54e09f.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_index-0396f874.js": {
-    "css": [
-      "assets/index-ed62b96c.css"
-    ],
-    "file": "assets/index-0396f874.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-2e10a2e9.js": {
-    "file": "assets/index-2e10a2e9.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-4e0a3ff8.js": {
-    "file": "assets/index-4e0a3ff8.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-7257daae.js": {
-    "css": [
-      "assets/index-9db804fb.css"
-    ],
-    "file": "assets/index-7257daae.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-7f0191b1.js": {
-    "css": [
-      "assets/Preloader-addb590e.css"
-    ],
-    "file": "assets/index-7f0191b1.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-84049355.js": {
-    "css": [
-      "assets/index-845c039f.css"
-    ],
-    "file": "assets/index-84049355.js",
-    "imports": [
-      "resources/ts/app.ts",
-      "_Form-58a21dac.js"
-    ]
-  },
-  "_index-9c54aa32.js": {
-    "css": [
-      "assets/index-7c03d7da.css"
-    ],
-    "file": "assets/index-9c54aa32.js",
-    "imports": [
-      "resources/ts/app.ts",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js"
-    ]
-  },
-  "_index-9f59e246.js": {
-    "file": "assets/index-9f59e246.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-c325659d.js": {
-    "css": [
-      "assets/index-994addc4.css"
-    ],
-    "file": "assets/index-c325659d.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-cdb4c69b.js": {
-    "css": [
-      "assets/index-fac90222.css"
-    ],
-    "file": "assets/index-cdb4c69b.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_index-db98c2c6.js": {
+  "_index-19bf36b2.js": {
     "css": [
       "assets/index-b0eecc85.css"
     ],
-    "file": "assets/index-db98c2c6.js",
+    "file": "assets/index-19bf36b2.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Input-31415e5f.js"
+      "_Input-d3b83963.js"
     ]
   },
-  "_languages-0915f197.js": {
-    "file": "assets/languages-0915f197.js",
+  "_index-514c2535.js": {
+    "css": [
+      "assets/index-9db804fb.css"
+    ],
+    "file": "assets/index-514c2535.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_projects-268624a7.js": {
-    "file": "assets/projects-268624a7.js",
+  "_index-8e52a0a6.js": {
+    "css": [
+      "assets/index-ed62b96c.css"
+    ],
+    "file": "assets/index-8e52a0a6.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_roles-9767865f.js": {
-    "file": "assets/roles-9767865f.js",
+  "_index-905820b6.js": {
+    "file": "assets/index-905820b6.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_skills-8ade733c.js": {
-    "file": "assets/skills-8ade733c.js",
+  "_index-9eccd2e9.js": {
+    "file": "assets/index-9eccd2e9.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_technologies-fd884304.js": {
-    "file": "assets/technologies-fd884304.js",
+  "_index-a0bb7abd.js": {
+    "css": [
+      "assets/index-994addc4.css"
+    ],
+    "file": "assets/index-a0bb7abd.js",
     "imports": [
       "resources/ts/app.ts"
     ]
   },
-  "_users-693ba4b9.js": {
-    "file": "assets/users-693ba4b9.js",
-    "imports": [
-      "resources/ts/app.ts"
-    ]
-  },
-  "_utility-d8d0b0df.js": {
-    "file": "assets/utility-d8d0b0df.js",
+  "_index-e1f918ea.js": {
+    "css": [
+      "assets/index-845c039f.css"
+    ],
+    "file": "assets/index-e1f918ea.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-9c54aa32.js",
-      "_index-c325659d.js"
+      "_Form-713bcef4.js"
+    ]
+  },
+  "_index-e60c0296.js": {
+    "css": [
+      "assets/Preloader-addb590e.css"
+    ],
+    "file": "assets/index-e60c0296.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_index-e86ffdb2.js": {
+    "css": [
+      "assets/index-7c03d7da.css"
+    ],
+    "file": "assets/index-e86ffdb2.js",
+    "imports": [
+      "resources/ts/app.ts",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js"
+    ]
+  },
+  "_index-eb8233ec.js": {
+    "file": "assets/index-eb8233ec.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_index-f5623f27.js": {
+    "css": [
+      "assets/index-fac90222.css"
+    ],
+    "file": "assets/index-f5623f27.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_languages-cde99b50.js": {
+    "file": "assets/languages-cde99b50.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_projects-4895a045.js": {
+    "file": "assets/projects-4895a045.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_roles-d058b4ea.js": {
+    "file": "assets/roles-d058b4ea.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_skills-86685e52.js": {
+    "file": "assets/skills-86685e52.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_technologies-eaa6c56e.js": {
+    "file": "assets/technologies-eaa6c56e.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_users-45a5408b.js": {
+    "file": "assets/users-45a5408b.js",
+    "imports": [
+      "resources/ts/app.ts"
+    ]
+  },
+  "_utility-e8156fec.js": {
+    "file": "assets/utility-e8156fec.js",
+    "imports": [
+      "resources/ts/app.ts",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-e86ffdb2.js",
+      "_index-a0bb7abd.js"
     ]
   },
   "contact.css": {
@@ -217,7 +217,7 @@
     "src": "contact.css"
   },
   "index.css": {
-    "file": "assets/index-9db804fb.css",
+    "file": "assets/index-fac90222.css",
     "src": "index.css"
   },
   "resources/flags/1x1/ad.svg": {
@@ -2854,7 +2854,7 @@
       "resources/ts/src/containers/Frontend/Skills/index.jsx",
       "resources/ts/src/containers/Frontend/Portfolio/index.jsx"
     ],
-    "file": "assets/app-297e02ac.js",
+    "file": "assets/app-83f3b383.js",
     "isEntry": true,
     "src": "resources/ts/app.ts"
   },
@@ -2862,15 +2862,15 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/index-f555b86f.js",
+    "file": "assets/index-38a2261e.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-db98c2c6.js",
-      "_Form-58a21dac.js",
-      "_Label-a99056e9.js",
-      "_index-9f59e246.js",
-      "_index-7f0191b1.js",
-      "_Input-31415e5f.js"
+      "_index-19bf36b2.js",
+      "_Form-713bcef4.js",
+      "_Label-425fd04f.js",
+      "_index-eb8233ec.js",
+      "_index-e60c0296.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Auth/Admin/Login/index.jsx"
@@ -2879,14 +2879,14 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/index-3520768f.js",
+    "file": "assets/index-378763a9.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Form-58a21dac.js",
-      "_index-db98c2c6.js",
-      "_index-9f59e246.js",
-      "_index-7f0191b1.js",
-      "_Input-31415e5f.js"
+      "_Form-713bcef4.js",
+      "_index-19bf36b2.js",
+      "_index-eb8233ec.js",
+      "_index-e60c0296.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Auth/Admin/Verify/index.jsx"
@@ -2895,14 +2895,14 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/index-675eb6bf.js",
+    "file": "assets/index-90520de0.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Form-58a21dac.js",
-      "_index-9f59e246.js",
-      "_index-db98c2c6.js",
-      "_index-7f0191b1.js",
-      "_Input-31415e5f.js"
+      "_Form-713bcef4.js",
+      "_index-eb8233ec.js",
+      "_index-19bf36b2.js",
+      "_index-e60c0296.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Auth/User/Login/index.jsx"
@@ -2911,18 +2911,18 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Add-72f42530.js",
+    "file": "assets/Add-16950b3c.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-7257daae.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_index-7f0191b1.js",
-      "_admins-22ce7b88.js",
-      "_Form-58a21dac.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-514c2535.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_index-e60c0296.js",
+      "_admins-29b24db0.js",
+      "_Form-713bcef4.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Admin/Admins/Add.jsx"
@@ -2931,116 +2931,116 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Edit-0407be42.js",
+    "file": "assets/Edit-7ce79678.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Admin/Admins/Add.jsx",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-7257daae.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_index-7f0191b1.js",
-      "_admins-22ce7b88.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-514c2535.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_index-e60c0296.js",
+      "_admins-29b24db0.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Admin/Admins/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Admin/Admins/index.jsx": {
-    "file": "assets/index-a348b6de.js",
+    "file": "assets/index-37989766.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-9c54aa32.js",
-      "_index-4e0a3ff8.js",
-      "_index-2e10a2e9.js",
-      "_index-c325659d.js",
-      "_admins-22ce7b88.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-e86ffdb2.js",
+      "_index-9eccd2e9.js",
+      "_index-905820b6.js",
+      "_index-a0bb7abd.js",
+      "_admins-29b24db0.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Admin/Admins/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Cms/Auth.jsx": {
-    "file": "assets/Auth-a9e28ea6.js",
+    "file": "assets/Auth-3f8004f7.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Section-387aa150.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_Label-a99056e9.js",
-      "_cms-812b4247.js"
+      "_Section-b525bf0c.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_Label-425fd04f.js",
+      "_cms-9ac6a56b.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Cms/Auth.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Cms/Backend.jsx": {
-    "file": "assets/Backend-cbf8bd45.js",
+    "file": "assets/Backend-0ef88af9.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Section-387aa150.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_Label-a99056e9.js",
-      "_cms-812b4247.js"
+      "_Section-b525bf0c.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_Label-425fd04f.js",
+      "_cms-9ac6a56b.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Cms/Backend.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Cms/Frontend.jsx": {
-    "file": "assets/Frontend-e8233cbe.js",
+    "file": "assets/Frontend-f5bf4042.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Section-387aa150.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_Label-a99056e9.js",
-      "_cms-812b4247.js"
+      "_Section-b525bf0c.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_Label-425fd04f.js",
+      "_cms-9ac6a56b.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Cms/Frontend.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Cms/General.jsx": {
-    "file": "assets/General-edba8a3e.js",
+    "file": "assets/General-beccba2d.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_cms-812b4247.js",
-      "_Form-58a21dac.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_cms-9ac6a56b.js",
+      "_Form-713bcef4.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Cms/General.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Cms/Global.jsx": {
-    "file": "assets/Global-c075e418.js",
+    "file": "assets/Global-34030dea.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_cms-812b4247.js",
-      "_Form-58a21dac.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_cms-9ac6a56b.js",
+      "_Form-713bcef4.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Cms/Global.jsx"
@@ -3053,239 +3053,239 @@
     "css": [
       "assets/index-cd59f6da.css"
     ],
-    "file": "assets/index-80b063d3.js",
+    "file": "assets/index-f495ffcc.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-c325659d.js"
+      "_index-eb8233ec.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Dashboard/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Experiences/Add.jsx": {
-    "file": "assets/Add-32c20d8e.js",
+    "file": "assets/Add-ba55df96.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_experiences-d67dd9de.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_experiences-b81fc267.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Experiences/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Experiences/Edit.jsx": {
-    "file": "assets/Edit-7b7e121d.js",
+    "file": "assets/Edit-b5143bf8.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Experiences/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_experiences-d67dd9de.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_experiences-b81fc267.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Experiences/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Experiences/index.jsx": {
-    "file": "assets/index-778af618.js",
+    "file": "assets/index-71694bfb.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_experiences-d67dd9de.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_experiences-b81fc267.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Experiences/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Features/Add.jsx": {
-    "file": "assets/Add-7271cf42.js",
+    "file": "assets/Add-e08ed036.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_features-f991db74.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_features-ed54e09f.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Features/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Features/Edit.jsx": {
-    "file": "assets/Edit-58db2eb6.js",
+    "file": "assets/Edit-2dfefe9f.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Features/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_features-f991db74.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_features-ed54e09f.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Features/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Features/index.jsx": {
-    "file": "assets/index-3f967bcc.js",
+    "file": "assets/index-7073279b.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_features-f991db74.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_features-ed54e09f.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Features/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Languages/Add.jsx": {
-    "file": "assets/Add-1202483a.js",
+    "file": "assets/Add-f1ac5e82.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_languages-0915f197.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_languages-cde99b50.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Languages/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Languages/Edit.jsx": {
-    "file": "assets/Edit-a04f37fa.js",
+    "file": "assets/Edit-2779635e.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Languages/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_languages-0915f197.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_languages-cde99b50.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Languages/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Languages/index.jsx": {
-    "file": "assets/index-07b20fc2.js",
+    "file": "assets/index-84e9ee1c.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_languages-0915f197.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_languages-cde99b50.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Languages/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Projects/Add.jsx": {
-    "file": "assets/Add-7774563b.js",
+    "file": "assets/Add-cbc2eb52.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-db98c2c6.js",
-      "_index-7257daae.js",
-      "_projects-268624a7.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-19bf36b2.js",
+      "_index-514c2535.js",
+      "_projects-4895a045.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Projects/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Projects/Edit.jsx": {
-    "file": "assets/Edit-39a8898e.js",
+    "file": "assets/Edit-b9d88890.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Projects/Add.jsx",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_index-7257daae.js",
-      "_projects-268624a7.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_index-514c2535.js",
+      "_projects-4895a045.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Projects/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Projects/index.jsx": {
-    "file": "assets/index-e8f74597.js",
+    "file": "assets/index-f75fb576.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_projects-268624a7.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_projects-4895a045.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Projects/index.jsx"
@@ -3294,20 +3294,20 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Add-00e2983e.js",
+    "file": "assets/Add-4a24e553.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-db98c2c6.js",
-      "_index-7257daae.js",
-      "_roles-9767865f.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-19bf36b2.js",
+      "_index-514c2535.js",
+      "_roles-d058b4ea.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Roles/Add.jsx"
@@ -3316,168 +3316,168 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Edit-d3500909.js",
+    "file": "assets/Edit-327b7c9b.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Roles/Add.jsx",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_index-7257daae.js",
-      "_roles-9767865f.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_index-514c2535.js",
+      "_roles-d058b4ea.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Roles/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Roles/index.jsx": {
-    "file": "assets/index-c121606a.js",
+    "file": "assets/index-43e82bc6.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_roles-9767865f.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_roles-d058b4ea.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Roles/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Settings/Language.jsx": {
-    "file": "assets/Language-84c7a7f3.js",
+    "file": "assets/Language-b6ea08ee.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_index-7257daae.js",
-      "_index-c325659d.js",
-      "_index-db98c2c6.js",
-      "_Form-58a21dac.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_index-514c2535.js",
+      "_index-a0bb7abd.js",
+      "_index-19bf36b2.js",
+      "_Form-713bcef4.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Settings/Language.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Skills/Add.jsx": {
-    "file": "assets/Add-e9658078.js",
+    "file": "assets/Add-73f51827.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_skills-8ade733c.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_skills-86685e52.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Skills/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Skills/Edit.jsx": {
-    "file": "assets/Edit-41802fc3.js",
+    "file": "assets/Edit-fe685099.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Skills/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_skills-8ade733c.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_skills-86685e52.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Skills/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Skills/index.jsx": {
-    "file": "assets/index-ab48cefc.js",
+    "file": "assets/index-cd48a5a4.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_skills-8ade733c.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_skills-86685e52.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Skills/index.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Technologies/Add.jsx": {
-    "file": "assets/Add-00549ca4.js",
+    "file": "assets/Add-13e751c9.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_technologies-fd884304.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_technologies-eaa6c56e.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Technologies/Add.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Technologies/Edit.jsx": {
-    "file": "assets/Edit-1158fdee.js",
+    "file": "assets/Edit-2678de3b.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Technologies/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_technologies-fd884304.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_technologies-eaa6c56e.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Technologies/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Technologies/index.jsx": {
-    "file": "assets/index-85548aeb.js",
+    "file": "assets/index-80400229.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-2e10a2e9.js",
-      "_technologies-fd884304.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-905820b6.js",
+      "_technologies-eaa6c56e.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Technologies/index.jsx"
@@ -3486,20 +3486,20 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Add-bc3f7794.js",
+    "file": "assets/Add-bc889fe3.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_users-693ba4b9.js",
-      "_utility-d8d0b0df.js",
-      "_Input-31415e5f.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_users-45a5408b.js",
+      "_utility-e8156fec.js",
+      "_Input-d3b83963.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Users/Add.jsx"
@@ -3508,40 +3508,40 @@
     "css": [
       "assets/Preloader-addb590e.css"
     ],
-    "file": "assets/Edit-9d3dbc0a.js",
+    "file": "assets/Edit-48cb6050.js",
     "imports": [
       "resources/ts/app.ts",
       "resources/ts/src/containers/Backend/Manager/Users/Add.jsx",
-      "_index-7257daae.js",
-      "_index-db98c2c6.js",
-      "_Input-31415e5f.js",
-      "_users-693ba4b9.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_index-c325659d.js"
+      "_index-514c2535.js",
+      "_index-19bf36b2.js",
+      "_Input-d3b83963.js",
+      "_users-45a5408b.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Users/Edit.jsx"
   },
   "resources/ts/src/containers/Backend/Manager/Users/index.jsx": {
-    "file": "assets/index-8fc3df54.js",
+    "file": "assets/index-31fd8022.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-4e0a3ff8.js",
-      "_index-2e10a2e9.js",
-      "_users-693ba4b9.js",
-      "_utility-d8d0b0df.js",
-      "_index-9f59e246.js",
-      "_index-84049355.js",
-      "_Form-58a21dac.js",
-      "_index-9c54aa32.js",
-      "_Table-ae2884d3.js",
-      "_Input-31415e5f.js",
-      "_index-c325659d.js"
+      "_index-9eccd2e9.js",
+      "_index-905820b6.js",
+      "_users-45a5408b.js",
+      "_utility-e8156fec.js",
+      "_index-eb8233ec.js",
+      "_index-e1f918ea.js",
+      "_Form-713bcef4.js",
+      "_index-e86ffdb2.js",
+      "_Table-c89ba9fc.js",
+      "_Input-d3b83963.js",
+      "_index-a0bb7abd.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Backend/Manager/Users/index.jsx"
@@ -3554,11 +3554,11 @@
     "css": [
       "assets/index-f28b494c.css"
     ],
-    "file": "assets/index-31cf0ad2.js",
+    "file": "assets/index-4d5b9d4b.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-0396f874.js",
-      "_index-cdb4c69b.js"
+      "_index-8e52a0a6.js",
+      "_index-f5623f27.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Frontend/About/index.jsx"
@@ -3571,35 +3571,35 @@
     "css": [
       "assets/index-2a310579.css"
     ],
-    "file": "assets/index-6bd16ac3.js",
+    "file": "assets/index-181264c9.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-9f59e246.js",
-      "_index-cdb4c69b.js",
-      "_index-db98c2c6.js",
-      "_contact-f4366f14.js",
-      "_Input-31415e5f.js"
+      "_index-eb8233ec.js",
+      "_index-f5623f27.js",
+      "_index-19bf36b2.js",
+      "_contact-47d30a48.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Frontend/Contact/index.jsx"
   },
   "resources/ts/src/containers/Frontend/Home/index.css": {
-    "file": "assets/index-4a919bec.css",
+    "file": "assets/index-c07becec.css",
     "src": "resources/ts/src/containers/Frontend/Home/index.css"
   },
   "resources/ts/src/containers/Frontend/Home/index.jsx": {
     "css": [
-      "assets/index-4a919bec.css"
+      "assets/index-c07becec.css"
     ],
-    "file": "assets/index-54aaf406.js",
+    "file": "assets/index-c07fbbcf.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-0396f874.js",
-      "_index-db98c2c6.js",
-      "_contact-f4366f14.js",
-      "_index-cdb4c69b.js",
-      "_index-9f59e246.js",
-      "_Input-31415e5f.js"
+      "_index-8e52a0a6.js",
+      "_index-19bf36b2.js",
+      "_contact-47d30a48.js",
+      "_index-f5623f27.js",
+      "_index-eb8233ec.js",
+      "_Input-d3b83963.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Frontend/Home/index.jsx"
@@ -3612,11 +3612,11 @@
     "css": [
       "assets/index-2b572428.css"
     ],
-    "file": "assets/index-85fc06de.js",
+    "file": "assets/index-4755635e.js",
     "imports": [
       "resources/ts/app.ts",
-      "_Table-ae2884d3.js",
-      "_index-cdb4c69b.js"
+      "_Table-c89ba9fc.js",
+      "_index-f5623f27.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Frontend/Portfolio/index.jsx"
@@ -3629,10 +3629,10 @@
     "css": [
       "assets/index-c6766ca9.css"
     ],
-    "file": "assets/index-536d5a53.js",
+    "file": "assets/index-09d760de.js",
     "imports": [
       "resources/ts/app.ts",
-      "_index-cdb4c69b.js"
+      "_index-f5623f27.js"
     ],
     "isDynamicEntry": true,
     "src": "resources/ts/src/containers/Frontend/Skills/index.jsx"

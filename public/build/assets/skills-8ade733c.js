@@ -1,2 +1,0 @@
-import{T as o,y as S,U as p,V as c,W as L}from"./app-297e02ac.js";const e=(s,...t)=>S("skills",{start:()=>({type:p}),success:a=>({type:c,...a}),fail:a=>({type:L,error:a})},s,...t),i={reset:()=>({type:o}),get:(s,t,a)=>e("index",s,t,a),info:()=>e("info"),show:s=>e("show",s),post:s=>e("post",s),patch:(s,t)=>e("patch",s,t),delete:s=>e("delete",s)};export{i as a};
-//# sourceMappingURL=skills-8ade733c.js.map

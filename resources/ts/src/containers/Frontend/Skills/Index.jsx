@@ -49,7 +49,7 @@ class Skills extends Component {
                 <div className='title'>{skill.name}</div>
 
                 <div className='bar-wrapper'>
-                    <div className={`bar bg-${window.COLORS[index]}`} style={{ width: `${skill.percentage}%` }} />
+                    <div className={`bar bg-${window.COLORS[index] || 'white'}`} style={{ width: `${skill.percentage}%` }} />
                 </div>
             </div>
         });
