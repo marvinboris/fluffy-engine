@@ -10,5 +10,6 @@ declare global {
     }
 }
 
-import './bootstrap.ts';
+import './bootstrap';
+import "../sass/app.scss";
 import './src';

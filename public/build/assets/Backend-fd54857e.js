@@ -1,2 +1,0 @@
-import{j as o}from"./app-e0ea1308.js";import{S as m}from"./Section-1b8346e7.js";import"./index-5eba3c64.js";import"./index-378310ce.js";import"./Form-fa3faa35.js";import"./index-d1db03c0.js";import"./index-6b49fe06.js";import"./Input-e2587015.js";import"./Label-cd5f07dc.js";import"./cms-4d91f211.js";const f=()=>o(m,{className:"Backend",name:"backend"});export{f as default};
-//# sourceMappingURL=Backend-fd54857e.js.map

@@ -1,0 +1,2 @@
+import{X as a,y as p,Y as c,Z as r,_ as S}from"./app-b00405aa.js";const s=(e,...t)=>p("projects",{start:()=>({type:c}),success:o=>({type:r,...o}),fail:o=>({type:S,error:o})},e,...t),E={reset:()=>({type:a}),get:(e,t,o)=>s("index",e,t,o),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{E as a};
+//# sourceMappingURL=projects-0316f481.js.map
