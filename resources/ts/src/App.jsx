@@ -15,7 +15,6 @@ import Loading from "./components/UI/Preloaders/Loading";
 
 import { authCheckState } from "./store/actions/auth";
 
-import "../../sass/app.scss";
 import "aos/dist/aos.css";
 
 const importedRoutes = {

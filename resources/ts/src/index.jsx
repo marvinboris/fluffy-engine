@@ -8,6 +8,8 @@ import store from "./store";
 
 import * as serviceWorker from "./serviceWorker";
 
+import "../../sass/app.scss";
+
 import "react-owl-carousel2/src/owl.carousel.css";
 import "react-owl-carousel2/src/owl.theme.default.css";
 

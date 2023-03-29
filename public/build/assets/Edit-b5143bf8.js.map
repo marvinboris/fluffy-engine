@@ -1,1 +1,0 @@
-{"version":3,"file":"Edit-b5143bf8.js","sources":["../../../resources/ts/src/containers/Backend/Manager/Experiences/Edit.jsx"],"sourcesContent":["import React from 'react';\r\n\r\nimport Add from './Add';\r\n\r\nexport default () => <Add edit />;"],"names":["Edit","jsx","Add"],"mappings":"kYAIA,MAAeA,EAAA,IAAMC,EAACC,EAAI,CAAA,KAAI,EAAC,CAAA"}

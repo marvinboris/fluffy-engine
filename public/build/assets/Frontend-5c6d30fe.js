@@ -1,0 +1,2 @@
+import{j as o}from"./app-e0ea1308.js";import{S as t}from"./Section-1b8346e7.js";import"./index-5eba3c64.js";import"./index-378310ce.js";import"./Form-fa3faa35.js";import"./index-d1db03c0.js";import"./index-6b49fe06.js";import"./Input-e2587015.js";import"./Label-cd5f07dc.js";import"./cms-4d91f211.js";const c=()=>o(t,{className:"Frontend",name:"frontend"});export{c as default};
+//# sourceMappingURL=Frontend-5c6d30fe.js.map

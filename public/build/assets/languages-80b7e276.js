@@ -1,0 +1,2 @@
+import{E as o,y as p,G as A,H as c,I as G}from"./app-e0ea1308.js";const s=(e,...t)=>p("languages",{start:()=>({type:A}),success:a=>({type:c,...a}),fail:a=>({type:G,error:a})},e,...t),n={reset:()=>({type:o}),get:(e,t,a)=>s("index",e,t,a),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{n as a};
+//# sourceMappingURL=languages-80b7e276.js.map

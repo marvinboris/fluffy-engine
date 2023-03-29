@@ -1,2 +1,0 @@
-import{O as a,y as o,P as p,Q as c,S}from"./app-83f3b383.js";const s=(e,...t)=>o("experiences",{start:()=>({type:p}),success:E=>({type:c,...E}),fail:E=>({type:S,error:E})},e,...t),n={reset:()=>({type:a}),get:(e,t,E)=>s("index",e,t,E),info:()=>s("info"),show:e=>s("show",e),post:e=>s("post",e),patch:(e,t)=>s("patch",e,t),delete:e=>s("delete",e)};export{n as a};
-//# sourceMappingURL=experiences-b81fc267.js.map
